@@ -1,0 +1,21 @@
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+    background: black;
+}
+
+.hero-text {
+    text-align: center;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 110px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%; /* 110px */
+    text-transform: uppercase;
+    background: linear-gradient(179deg, #FFF 75.57%, rgba(255, 255, 255, 0.00) 99.29%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
