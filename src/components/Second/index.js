@@ -1,14 +1,15 @@
 import React from "react";
-import "./Second.css";
+import styles from "./Second.module.css";
 
 const Second = () => {
   return (
-    <div className="second-container">
-      <h1 className="second-heading">
+    <div className={styles.secondContainer}>
+      <div className={styles.rightImage}></div>
+      <h1 className={styles.secondHeading}>
         At Chainly, we've curated a suite of services designed to empower your
         web3 ventures.
       </h1>
-      <p className="second-content">
+      <p className={styles.secondContent}>
         Our offerings extend far beyond the conventional, bringing together the
         essential elements that shape success in the decentralized landscape.
         <br />
