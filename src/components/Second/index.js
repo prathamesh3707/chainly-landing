@@ -1,9 +1,18 @@
 import React from "react";
 import styles from "./Second.module.css";
-
+import Title from "../Title";
 const Second = () => {
   return (
     <div className={styles.secondContainer}>
+      <Title
+        titleName="About Chainly 🚀"
+        style={{
+          position: "absolute",
+          top: "50%",
+          left: "50%",
+          transform: "translate(-50%, -50%)",
+        }}
+      />
       <div className={styles.rightImage}></div>
       <h1 className={styles.secondHeading}>
         At Chainly, we've curated a suite of services designed to empower your
