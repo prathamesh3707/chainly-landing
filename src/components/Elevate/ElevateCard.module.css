@@ -1,0 +1,48 @@
+.elevateCard {
+  width: 352px;
+  height: 380px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 1.5px solid #0169f0;
+  background: linear-gradient(
+    204deg,
+    rgba(14, 43, 131, 0.5) -25.14%,
+    rgba(14, 43, 131, 0) 105.79%
+  );
+  backdrop-filter: blur(13.5px);
+  position: relative;
+  padding: 20px;
+}
+
+.cardIcon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.cardText {
+  display: flex;
+  width: 250px;
+  height: 100px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  text-transform: uppercase;
+  background: linear-gradient(
+    180deg,
+    #fff 37.5%,
+    rgba(255, 255, 255, 0) 129.78%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
