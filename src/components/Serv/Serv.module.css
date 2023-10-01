@@ -1,0 +1,19 @@
+.main {
+	display: flex;
+	flex-direction: row;
+	width: 12rem; /* Tailwind width 'w-48' */
+	padding: 0.5rem 1rem; /* Tailwind padding 'p-2' */
+	border-radius: 12px;
+	border: 1px solid #192161;
+	background: linear-gradient(
+		180deg,
+		rgba(14, 43, 131, 0.2) 0%,
+		rgba(14, 43, 131, 0) 100%
+	);
+	backdrop-filter: blur(13.5px);
+	color: white;
+}
+
+.main:hover {
+	background: #0169f0;
+}

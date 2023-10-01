@@ -7,6 +7,7 @@ module.exports = {
 			brand1: "#01C2FF",
 			back: "#0E2B83",
 			borbot: "#1972E2",
+			services: "#192161",
 		},
 
 		extend: {},
