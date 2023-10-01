@@ -1,0 +1,33 @@
+.secondHeading {
+  font-family: "Gilroy-Bold", sans-serif;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-bottom: 4rem;
+  text-align: center;
+  padding-top: 3.5rem;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+  z-index: 2;
+  position: relative;
+  color: white;
+}
+
+.header {
+  background: #000211;
+}
+
+.rightImage {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 600px;
+  height: 100%;
+  background-image: url("/src/assets/Vector 10.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
+  z-index: 3;
+}
