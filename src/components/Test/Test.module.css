@@ -14,19 +14,43 @@
   color: white;
 }
 
+.parentContainer {
+  display: flex;
+  justify-content: center;
+}
+
 .header {
   background: #000211;
 }
-/* 
+
+.mainContainer {
+  position: relative;
+}
 .rightImage {
   content: "";
   position: absolute;
   top: 0;
-  right: 0;
-  width: 600px;
+  right: 0; /* Position to the rightmost side */
+  width: 600px; /* Adjust this width based on how wide you want the right image to be */
   height: 100%;
-  background-image: url("/src/assets/Vector 10.png");
+  background-image: url("/src/assets/Vector 12.png"); /* Replace with the path to your new image */
+  background-size: cover;
   background-repeat: no-repeat;
   background-color: transparent;
-  z-index: 3;
-} */
+  z-index: 0;
+}
+
+.leftImage {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0; /* Position to the rightmost side */
+  width: 600px; /* Adjust this width based on how wide you want the right image to be */
+  height: 100%;
+  background-image: url("/src/assets/Vector13.png"),
+    url("/src/assets/Vector14.png"); /* Replace with the path to your new image */
+  background-size: cover, cover;
+  background-repeat: no-repeat, no-repeat;
+  background-color: transparent;
+  z-index: 0;
+}

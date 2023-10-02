@@ -5,6 +5,7 @@
   padding: 18px;
   background: #000211;
   padding-top: 4rem;
+  position: relative;
 }
 
 .cardContainer {
@@ -15,3 +16,27 @@
 }
 
 /* Assuming you already have styles for ElevateCard in another CSS file */
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  margin: 0 10px;
+  width: 600px;
+  height: auto;
+}
+
+.rightImage {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0; /* Position to the rightmost side */
+  width: 600px; /* Adjust this width based on how wide you want the right image to be */
+  height: 100%;
+  background-image: url("/src/assets/Vector21.png"); /* Replace with the path to your new image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}

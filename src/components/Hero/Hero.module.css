@@ -21,3 +21,21 @@
     -webkit-text-fill-color: transparent;
 }
 
+.comprehensiveText {
+    display: flex;
+    width: 369px;
+    height: 47px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    bottom: 5rem;
+    left: 3rem;
+    padding: 10px; /* Optional: You can adjust this padding as per your requirements */
+}

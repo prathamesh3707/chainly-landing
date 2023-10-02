@@ -9,9 +9,22 @@ import Mail from "../../assets/Mail.png";
 import User from "../../assets/User.png";
 import ThumbUp from "../../assets/Thumb up.png";
 import LightBulb from "../../assets/Lightbulb.png";
+import partners from "../../assets/Partners.svg";
+import launchpad from "../../assets/Partners2.svg";
 function Elevate() {
   return (
     <div className={styles.container}>
+      <Title titleName="Chainly Ecosystem 🛸" />
+      <br />
+      <br />
+      <div className={styles.imageContainer}>
+        <img src={partners} alt="hello" className={styles.image} />
+        <img src={launchpad} alt="hello" className={styles.image} />
+      </div>
+      <div className={styles.rightImage}></div>
+      <br />
+      <br />
+      <br />
       <Title titleName="Elevate with Chainly" />
       <br />
       <br />

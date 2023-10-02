@@ -8,7 +8,10 @@ const Hero = () => {
       <h1 className={styles.heroText}>
         MARKETING Services for Decentralized Journey
       </h1>
-      <Navbar/>
+      <Navbar />
+      <div className={styles.comprehensiveText}>
+        Comprehensive services <br /> for your Decentralised journey. 🚀
+      </div>
     </div>
   );
 };

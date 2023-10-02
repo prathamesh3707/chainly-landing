@@ -11,27 +11,33 @@ import Video from "./components/Video/Video";
 import Links from "./components/Links/Links";
 
 function App() {
-	return (
-		<div className="App">
-			<Hero />
-			<Second />
-			<Marquee text="Chainly. studio" hollowText="Chainly. studio" />
-			<Marquee
-				text="Chainly. studio"
-				hollowText="Chainly. studio"
-				direction="reverse"
-				style={{ marginTop: "-2rem" }}
-			/>
-			<Services />
-			<Elevate />
-			<Test />
-			<Video />
-			<Contact />
-			<Marquee text="Let's Talk" hollowText="Let's Talk" />
-			<Links />
-			<Footer />
-		</div>
-	);
+  return (
+    <div className="App">
+      <Hero />
+      <div id="about-us">
+        <Second />
+      </div>
+      <Marquee text="Chainly. studio" hollowText="Chainly. studio" />
+      <Marquee
+        text="Chainly. studio"
+        hollowText="Chainly. studio"
+        direction="reverse"
+        style={{ marginTop: "-2rem" }}
+      />
+      <div id="services">
+        <Services />
+      </div>
+      <Elevate />
+      <div id="pricing">
+        <Test />
+      </div>
+      <Video />
+      <Contact />
+      <Marquee text="Let's Talk" hollowText="Let's Talk" />
+      <Links />
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
