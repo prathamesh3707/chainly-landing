@@ -8,16 +8,16 @@ function Form() {
 				<h1 className={styles.heading}>Contact</h1>
 				<input
 					placeholder="Name"
-					className="my-4 mx-auto w-96  border-2 border-brand rounded-lg p-1"
+					className="my-4 mx-auto w-48 md:w-96  border-2 border-brand rounded-lg p-1"
 				></input>
 				<input
 					placeholder="Email"
-					className="my-4 mx-auto w-96 mt-4 border-2 border-brand rounded-lg p-1"
+					className="my-4 mx-auto w-48 md:w-96 mt-4 border-2 border-brand rounded-lg p-1"
 				></input>
 
 				<textarea
 					placeholder="Reason of Contact"
-					className="my-4 mx-auto w-96 mt-4 border-2 border-brand rounded-lg p-1"
+					className="my-4 mx-auto w-48 md:w-96 mt-4 border-2 border-brand rounded-lg p-1"
 					name="Text1"
 					cols="20"
 					rows="4"
