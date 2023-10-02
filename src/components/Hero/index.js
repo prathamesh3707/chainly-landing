@@ -5,9 +5,9 @@ import Navbar from "../Navabar";
 const Hero = () => {
   return (
     <div className={styles.heroContainer}>
-      <h1 className={styles.heroText}>
+      <div className={styles.heroText}>
         MARKETING Services for Decentralized Journey
-      </h1>
+      </div>
       <Navbar />
       <div className={styles.comprehensiveText}>
         Comprehensive services <br /> for your Decentralised journey. 🚀

@@ -42,7 +42,6 @@
   color: #01c2ff;
 }
 
-
 .navbar {
   width: 560px;
   height: 72px;
@@ -61,7 +60,6 @@
   padding-left: 120px;
   padding-right: 40px;
   z-index: 3;
-  
 }
 
 .logo {
@@ -89,3 +87,8 @@
   color: #01c2ff;
 }
 
+@media (max-width: 480px) {
+  .navbar {
+    display: none;
+  }
+}
