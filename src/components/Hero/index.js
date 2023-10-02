@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Hero.module.css";
+import Navbar from "../Navabar";
 
 const Hero = () => {
   return (
@@ -7,6 +8,7 @@ const Hero = () => {
       <h1 className={styles.heroText}>
         MARKETING Services for Decentralized Journey
       </h1>
+      <Navbar/>
     </div>
   );
 };

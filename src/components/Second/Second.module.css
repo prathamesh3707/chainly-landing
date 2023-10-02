@@ -6,6 +6,7 @@
   padding-left: 50px; /* This padding is to ensure the content isn't too close to the edge. You can adjust it as needed. */
   height: 100%;
   position: relative;
+  padding-top: 4rem;
 }
 
 .secondContainer::before {

@@ -1,0 +1,43 @@
+.navbar {
+  width: 560px;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 65px;
+  background: rgba(21, 28, 47, 0.8);
+  backdrop-filter: blur(3px);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  bottom: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 5px;
+  padding-left: 120px;
+  padding-right: 40px; /* Adding some padding to adjust for logo */
+}
+
+.logo {
+  width: 114px;
+  height: 34px;
+  position: absolute;
+  left: 10px; /* Adjust this value based on your preference */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.navbar a {
+  color: #fff;
+  text-align: center;
+  font-family: "Gilroy", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.navbar a:hover {
+  color: #01c2ff;
+}

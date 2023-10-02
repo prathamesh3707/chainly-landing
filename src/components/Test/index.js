@@ -69,7 +69,7 @@ function Test() {
             className="w-3/5 mx-auto h-12 -mt-10 py-3 rounded-2xl bg-brand flex"
             style={{ fontFamily: "Gilroy-Bold", color: "white" }}
           >
-            <div className="mx-auto">INCUBATION</div>
+            <div className="mx-auto">MARKETING</div>
           </div>
           <div style={{ color: "white", fontFamily: "Gilroy" }}>
             <div className="border-b border-borbot mt-4 p-2 flex">
@@ -109,7 +109,7 @@ function Test() {
             className="w-3/5 mx-auto h-12 -mt-10 py-3 rounded-2xl bg-brand flex"
             style={{ fontFamily: "Gilroy-Bold", color: "white" }}
           >
-            <div className="mx-auto">INCUBATION</div>
+            <div className="mx-auto">LISTING</div>
           </div>
           <div style={{ color: "white", fontFamily: "Gilroy" }}>
             <div className="border-b border-borbot mt-4 p-2 flex">
