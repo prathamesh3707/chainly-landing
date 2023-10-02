@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Video from "./components/Video/Video";
 import Links from "./components/Links/Links";
+import Form from "./components/Form/Form";
 
 function App() {
 	return (
@@ -29,6 +30,7 @@ function App() {
 			<Contact />
 			<Marquee text="Let's Talk" hollowText="Let's Talk" />
 			<Links />
+			<Form />
 			<Footer />
 		</div>
 	);
