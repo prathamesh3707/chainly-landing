@@ -78,3 +78,56 @@
   background-color: transparent;
   z-index: 0;
 }
+
+
+
+/* For tablets and medium-sized devices */
+@media (max-width: 1024px) {
+  .secondHeading {
+    font-size: 42px;
+    padding: 1rem 4rem;
+  }
+
+  .secondContent {
+    font-size: 18px;
+    padding: 2rem 4rem;
+    width: auto;
+  }
+
+  .secondContainer::before,
+  .rightImage {
+    width: 50%;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+  .secondHeading {
+    font-size: 32px;
+    padding: 1rem 2rem;
+  }
+
+  .secondContent {
+    font-size: 16px;
+    padding: 1rem 2rem;
+    width: auto;
+  }
+
+  .secondContainer::before,
+  .rightImage {
+    display: none; /* Hide these images for smaller screens for better readability */
+  }
+}
+
+/* For very small mobile devices */
+@media (max-width: 480px) {
+  .secondHeading {
+    font-size: 24px;
+    padding: 0.5rem 1rem;
+  }
+
+  .secondContent {
+    font-size: 14px;
+    padding: 1rem;
+  }
+}

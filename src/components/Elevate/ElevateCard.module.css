@@ -46,3 +46,64 @@
   left: 50%;
   transform: translateX(-50%);
 }
+
+
+
+/* For tablets and medium-sized devices */
+@media (max-width: 1024px) {
+  .elevateCard {
+    width: 280px; /* Reduce card width */
+    height: 300px; /* Reduce card height */
+  }
+  
+  .cardIcon {
+    top: 15px; 
+    right: 15px; 
+  }
+
+  .cardText {
+    width: 200px; /* Adjust text width */
+    font-size: 28px; /* Slightly decrease font size */
+    bottom: 15px; /* Adjust position */
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+  .elevateCard {
+    width: 220px; /* Further reduce card width */
+    height: 240px; /* Further reduce card height */
+  }
+  
+  .cardIcon {
+    top: 10px; 
+    right: 10px; 
+  }
+
+  .cardText {
+    width: 240px; /* Adjust text width */
+    font-size: 24px; /* Further decrease font size */
+    bottom: 10px; /* Adjust position */
+  }
+}
+
+/* For very small mobile devices */
+@media (max-width: 480px) {
+  .elevateCard {
+    width: 240px; /* Further reduce card width */
+    height: 200px; /* Further reduce card height */
+  }
+  
+  .cardIcon {
+    width: 40px; /* Adjust icon size */
+    height: auto;
+    top: 8px; 
+    right: 8px; 
+  }
+
+  .cardText {
+    width: 150px; /* Adjust text width */
+    font-size: 20px; /* Further decrease font size */
+    bottom: 8px; /* Adjust position */
+  }
+}

@@ -19,3 +19,38 @@
   line-height: 28px;
   text-transform: uppercase;
 }
+
+
+
+/* For tablets and medium-sized devices */
+@media (max-width: 1024px) {
+  .titleContainer h1 {
+    font-size: 16px; /* Slightly decrease font size */
+  }
+
+  .titleContainer {
+    padding: 8px 18px; /* Adjust padding */
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+  .titleContainer h1 {
+    font-size: 14px; /* Further decrease font size */
+  }
+
+  .titleContainer {
+    padding: 6px 16px; /* Adjust padding */
+  }
+}
+
+/* For very small mobile devices */
+@media (max-width: 480px) {
+  .titleContainer h1 {
+    font-size: 12px; /* Further decrease font size */
+  }
+
+  .titleContainer {
+    padding: 4px 14px; /* Adjust padding */
+  }
+}
