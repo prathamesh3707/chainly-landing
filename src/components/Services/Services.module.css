@@ -3,8 +3,8 @@
   background: #000211;
   font-family: "Gilroy", sans-serif;
   text-align: left;
-  padding-left: 50px; /* This padding is to ensure the content isn't too close to the edge. You can adjust it as needed. */
-  height: 100%;
+  padding-left: 50px;
+  height: auto; /* Changed from 100% to auto */
   position: relative;
 }
 
@@ -13,7 +13,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 700px;
+  width: 100%; /* Changed from 700px to 100% */
   height: 100%;
   background-image: url("/src/assets/Vector 9.png");
   background-size: cover;
@@ -25,13 +25,14 @@
   content: "";
   position: absolute;
   top: 0;
-  right: 0; /* Position to the rightmost side */
-  width: 600px; /* Adjust this width based on how wide you want the right image to be */
+  right: 0;
+  width: 100%; /* Changed from 600px to 100% */
   height: 100%;
-  background-image: url("/src/assets/Vector 10.png"); /* Replace with the path to your new image */
+  background-image: url("/src/assets/Vector 10.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: transparent;
+  z-index: 0;
 }
 
 .secondHeading {
@@ -84,8 +85,6 @@
   margin: 0 auto; /* Center the card list horizontally */
 }
 
-
-
 /* Media Query for Medium-sized devices like tablets */
 @media (min-width: 769px) and (max-width: 1024px) {
   .secondHeading {
@@ -103,24 +102,26 @@
     gap: 15px; /* Adjust gap between cards */
   }
 }
-
-
-/* Media Query for Tablets and larger mobile devices */
 @media (max-width: 768px) {
   .secondHeading {
-    font-size: 32px; /* Reduce font size */
+    font-size: 32px;
     padding-left: 2rem;
     padding-right: 2rem;
   }
 
+  .secondContainer::before,
+  .rightImage {
+    display: none; /* Hide both background images on mobile */
+  }
+
   .secondContent {
-    font-size: 16px; /* Reduce font size */
-    padding: 2rem; /* Reduce padding */
-    width: auto; /* Adjust width to auto to fit content better */
+    font-size: 16px;
+    padding: 2rem;
+    width: auto;
   }
 
   .cardList {
-    padding-top: 1rem; /* Reduce padding */
-    gap: 10px; /* Reduce gap between cards */
+    padding-top: 1rem;
+    gap: 10px;
   }
 }

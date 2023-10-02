@@ -43,8 +43,6 @@
 }
 
 
-/* ... Existing Styles ... */
-
 .navbar {
   width: 560px;
   height: 72px;
@@ -62,6 +60,8 @@
   padding-top: 5px;
   padding-left: 120px;
   padding-right: 40px;
+  z-index: 3;
+  
 }
 
 .logo {
@@ -88,34 +88,4 @@
 .navbar a:hover {
   color: #01c2ff;
 }
-
-/* For mobile devices */
-@media (max-width: 480px) {
-  .navbar {
-    width: 90%;
-    height: auto;
-    flex-direction: column;
-    padding: 1rem 0;
-  }
-
-  .logo {
-    position: static;
-    margin-bottom: 1rem;
-    transform: none;
-  }
-
-  .navbar a {
-    margin-bottom: 0.5rem;
-  }
-}
-
-/* For tablets */
-@media (min-width: 481px) and (max-width: 768px) {
-  .navbar {
-    width: 80%;
-    padding-left: 80px;
-    padding-right: 20px;
-  }
-}
-
 

@@ -40,3 +40,22 @@
   white-space: nowrap; /* Ensure the text doesn't wrap to the next line */
   overflow: hidden; /* Hide overflow in case the text gets too large */
 }
+
+
+@media (max-width: 768px) {
+  .footerContainer {
+    flex-direction: column;
+    align-items: center; /* Center the columns on small screens */
+  }
+
+  .footerColumn {
+    margin-left: 0;
+    margin-bottom: 20px; /* Spacing between columns when they're stacked */
+    text-align: center; /* Center text in each column */
+  }
+
+  .chainlyContainer {
+    font-size: 8vw; /* Adjust font size for smaller screens */
+    margin-top: 20px; /* Spacing between footer columns and CHAINLY. STUDIO text */
+  }
+}

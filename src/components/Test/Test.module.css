@@ -12,11 +12,13 @@
   z-index: 2;
   position: relative;
   color: white;
+  text-align: center;
 }
 
 .parentContainer {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .header {
@@ -54,3 +56,70 @@
   background-color: transparent;
   z-index: 0;
 }
+
+/* For tablets and medium-sized devices */
+@media (max-width: 1024px) {
+  .secondHeading {
+    font-size: 48px; /* Slightly decrease font size */
+  }
+
+  .parentContainer {
+    flex-direction: column;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+  .rightImage {
+    display: none; /* hides the right image on devices with width <= 768px */
+  }
+  .leftImage {
+    display: none;
+  }
+  .secondHeading {
+    font-size: 36px; /* Further decrease font size */
+  }
+
+  .parentContainer {
+    flex-direction: column;
+  }
+}
+
+/* For very small mobile devices */
+@media (max-width: 480px) {
+  .secondHeading {
+    font-size: 28px; /* Further decrease font size */
+  }
+
+  .parentContainer {
+    flex-direction: column;
+  }
+}
+
+
+
+/* General styles */
+.box {
+  border: 1px solid #01c2ff; /* Your border color */
+  border-radius: 8px;
+  background: linear-gradient(to bottom, #000211, black);
+  padding: 20px;
+  margin: 10px 0;
+  width: 100%; /* Full width */
+  max-width: 300px; /* Maximum width to avoid the box being too wide on large screens */
+}
+
+/* Media Query for Medium-sized devices like tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .box {
+    max-width: 250px; /* Slightly reduce the maximum width */
+  }
+}
+
+/* Media Query for Tablets and larger mobile devices */
+@media (max-width: 768px) {
+  .box {
+    max-width: 200px; /* Further reduce the maximum width */
+  }
+}
+
