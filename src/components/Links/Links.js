@@ -7,7 +7,7 @@ function Links() {
 				<div className={styles.link}>
 					<div className={styles.obj}>TWITTER</div>
 					<svg
-						width="31"
+						width="22"
 						height="29"
 						viewBox="0 0 31 29"
 						fill="none"
@@ -25,7 +25,7 @@ function Links() {
 				<div className={styles.link}>
 					<div className={styles.obj}>LINKEDIN</div>
 					<svg
-						width="31"
+						width="22"
 						height="29"
 						viewBox="0 0 31 29"
 						fill="none"
@@ -43,7 +43,7 @@ function Links() {
 				<div className={styles.link}>
 					<div className={styles.obj}>INSTAGRAM</div>
 					<svg
-						width="31"
+						width="22"
 						height="29"
 						viewBox="0 0 31 29"
 						fill="none"
@@ -61,7 +61,7 @@ function Links() {
 				<div className={styles.link}>
 					<div className={styles.obj}>TELEGRAM</div>
 					<svg
-						width="31"
+						width="22"
 						height="29"
 						viewBox="0 0 31 29"
 						fill="none"
@@ -79,7 +79,7 @@ function Links() {
 				<div className={styles.link}>
 					<div className={styles.obj}>TWITTER</div>
 					<svg
-						width="31"
+						width="22"
 						height="29"
 						viewBox="0 0 31 29"
 						fill="none"

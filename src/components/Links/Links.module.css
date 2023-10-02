@@ -1,20 +1,21 @@
 .main {
-	border-bottom: 1px solid #1972e2;
-	background: #000211;
-	color: #fff;
-	justify-content: center;
-	height: 8vh;
-	padding: 2vh;
+  border-bottom: 1px solid #1972e2;
+  background: #000211;
+  color: #fff;
+  justify-content: center;
+  height: 8vh;
+  padding: 2rem 0rem 4.5rem 0rem;
 }
 .main:hover {
-	background: #1972e2;
+  background: #1972e2;
 }
 .link {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	width: 60vw;
-	margin: auto;
-	font-family: Gilroy;
-	font-size: 4vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60vw;
+  margin: auto;
+  font-family: Gilroy;
+  font-weight: 900;
+  font-size: 4vh;
 }
