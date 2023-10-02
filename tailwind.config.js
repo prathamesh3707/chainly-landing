@@ -8,7 +8,7 @@ module.exports = {
 			back: "#0E2B83",
 			borbot: "#1972E2",
 			services: "#192161",
-			links: "#000211;",
+			links: "#000211",
 		},
 
 		extend: {},
