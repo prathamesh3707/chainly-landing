@@ -8,3 +8,17 @@
 	font-size: 4vh;
 	margin: auto;
 }
+
+.submit {
+	color: white;
+	font-family: Gilroy;
+	font-size: 3vh;
+	margin: auto;
+	border: 2px solid blue;
+	padding: 1vw;
+	border-radius: 30%;
+}
+.submit:hover {
+	background: #1972e2;
+	cursor: pointor;
+}
