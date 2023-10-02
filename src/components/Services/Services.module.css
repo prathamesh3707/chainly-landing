@@ -83,3 +83,44 @@
   max-width: 1200px; /* Set a maximum width to ensure the layout looks good on larger screens */
   margin: 0 auto; /* Center the card list horizontally */
 }
+
+
+
+/* Media Query for Medium-sized devices like tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .secondHeading {
+    font-size: 42px; /* Slightly reduce font size */
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .secondContent {
+    font-size: 18px; /* Adjust font size */
+    padding: 2rem 3rem; /* Adjust padding */
+  }
+
+  .cardList {
+    gap: 15px; /* Adjust gap between cards */
+  }
+}
+
+
+/* Media Query for Tablets and larger mobile devices */
+@media (max-width: 768px) {
+  .secondHeading {
+    font-size: 32px; /* Reduce font size */
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .secondContent {
+    font-size: 16px; /* Reduce font size */
+    padding: 2rem; /* Reduce padding */
+    width: auto; /* Adjust width to auto to fit content better */
+  }
+
+  .cardList {
+    padding-top: 1rem; /* Reduce padding */
+    gap: 10px; /* Reduce gap between cards */
+  }
+}
