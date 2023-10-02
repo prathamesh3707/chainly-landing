@@ -8,6 +8,7 @@ import Services from "./components/Services";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Video from "./components/Video/Video";
+import Links from "./components/Links/Links";
 
 function App() {
 	return (
@@ -27,6 +28,7 @@ function App() {
 			<Video />
 			<Contact />
 			<Marquee text="Let's Talk" hollowText="Let's Talk" />
+			<Links />
 			<Footer />
 		</div>
 	);
