@@ -5,6 +5,7 @@ import Marquee from "./components/Marquee";
 import Elevate from "./components/Elevate";
 import Second from "./components/Second";
 import Services from "./components/Services";
+import Video from "./components/Video/Video";
 
 function App() {
 	return (
@@ -21,6 +22,7 @@ function App() {
 			<Services />
 			<Elevate />
 			<Test />
+			<Video />
 		</div>
 	);
 }
