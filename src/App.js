@@ -36,6 +36,7 @@ function App() {
 			<Contact />
 			<Marquee text="Let's Talk" hollowText="Let's Talk" />
 			<Links />
+			<Form />
 			<Footer />
 		</div>
 	);
