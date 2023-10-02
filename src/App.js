@@ -15,7 +15,9 @@ function App() {
 	return (
 		<div className="App">
 			<Hero />
-			<Second />
+			<div id="about-us">
+				<Second />
+			</div>
 			<Marquee text="Chainly. studio" hollowText="Chainly. studio" />
 			<Marquee
 				text="Chainly. studio"
@@ -23,14 +25,17 @@ function App() {
 				direction="reverse"
 				style={{ marginTop: "-2rem" }}
 			/>
-			<Services />
+			<div id="services">
+				<Services />
+			</div>
 			<Elevate />
-			<Test />
+			<div id="pricing">
+				<Test />
+			</div>
 			<Video />
 			<Contact />
 			<Marquee text="Let's Talk" hollowText="Let's Talk" />
 			<Links />
-			<Form />
 			<Footer />
 		</div>
 	);
