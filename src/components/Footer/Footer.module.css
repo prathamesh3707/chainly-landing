@@ -1,0 +1,42 @@
+.footerContainer {
+  display: flex;
+  padding: 20px; /* Adjust as needed */
+  background: #000211;
+}
+
+.footerColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #d9d9d9;
+  font-family: "Gilroy", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 16rem;
+}
+
+.footerColumn:nth-child(1) {
+  width: 177px;
+  height: 154px;
+}
+
+.footerColumn:nth-child(2) {
+  width: 264px;
+  height: 154px;
+}
+
+.chainlyContainer {
+  color: #fff;
+  text-align: center;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 12.2vw; /* This will adjust the font size based on the viewport width */
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1; /* 100% of the computed font-size */
+  text-transform: uppercase;
+  width: 100%; /* Take up the full width of the screen */
+  white-space: nowrap; /* Ensure the text doesn't wrap to the next line */
+  overflow: hidden; /* Hide overflow in case the text gets too large */
+}

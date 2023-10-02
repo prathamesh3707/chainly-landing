@@ -73,3 +73,13 @@
   flex-shrink: 0;
   z-index: 0; /* To ensure it stays on top */
 }
+
+.cardList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px; /* Set gap between each card, adjust as needed */
+  padding-top: 2rem; /* Set some padding at the top to separate it from the text above */
+  max-width: 1200px; /* Set a maximum width to ensure the layout looks good on larger screens */
+  margin: 0 auto; /* Center the card list horizontally */
+}
