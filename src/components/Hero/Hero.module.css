@@ -1,113 +1,145 @@
 .heroContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;  
-    background: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: black;
+}
+.image1 {
+	position: absolute;
+	top: 0;
+	width: auto;
+	height: 40vh;
+	z-index: 100;
+}
+.image2 {
+	position: absolute;
+	top: 0;
+	width: auto;
+	height: 90vh;
+	mask-image: linear-gradient(to top, transparent, black);
+}
+.image3 {
+	position: absolute;
+	top: 0;
+	width: 100vw;
+	height: 80vh;
 }
 
 .heroText {
-    text-align: center;
-    font-family: 'Gilroy-Bold', sans-serif;
-    font-size: 110px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 100%; /* 110px */
-    padding: 0rem 5rem;
-    text-transform: uppercase;
-    background: linear-gradient(179deg, #FFF 75.57%, rgba(255, 255, 255, 0.00) 99.29%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+	z-index: 90;
+	text-align: center;
+	font-family: "Gilroy-Bold", sans-serif;
+	font-size: 110px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 100%; /* 110px */
+	padding: 0rem 5rem;
+	text-transform: uppercase;
+	background: linear-gradient(
+		179deg,
+		#fff 75.57%,
+		rgba(255, 255, 255, 0) 99.29%
+	);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .comprehensiveText {
-    display: flex;
-    width: 369px;
-    height: 47px;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-    color: #FFF;
-    font-family: 'Gilroy', sans-serif;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    position: absolute;
-    bottom: 5rem;
-    left: 3rem;
-    padding: 10px; /* Optional: You can adjust this padding as per your requirements */
+	display: flex;
+	width: 369px;
+	height: 47px;
+	flex-direction: column;
+	justify-content: center;
+	flex-shrink: 0;
+	color: #fff;
+	font-family: "Gilroy", sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	position: absolute;
+	bottom: 5rem;
+	left: 3rem;
+	padding: 10px; /* Optional: You can adjust this padding as per your requirements */
 }
-
 
 /* ... Existing Styles ... */
 
 .heroContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: black;
 }
 
 .heroText {
-  text-align: center;
-  font-family: 'Gilroy-Bold', sans-serif;
-  font-size: 110px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 100%;
-  padding: 0rem 5rem;
-  text-transform: uppercase;
-  background: linear-gradient(179deg, #FFF 75.57%, rgba(255, 255, 255, 0.00) 99.29%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+	text-align: center;
+	font-family: "Gilroy-Bold", sans-serif;
+	font-size: 110px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 100%;
+	padding: 0rem 5rem;
+	text-transform: uppercase;
+	background: linear-gradient(
+		179deg,
+		#fff 75.57%,
+		rgba(255, 255, 255, 0) 99.29%
+	);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .comprehensiveText {
-  display: flex;
-  width: 369px;
-  height: 47px;
-  flex-direction: column;
-  justify-content: center;
-  flex-shrink: 0;
-  color: #FFF;
-  font-family: 'Gilroy', sans-serif;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  position: absolute;
-  bottom: 5rem;
-  left: 3rem;
-  padding: 10px;
+	display: flex;
+	width: 369px;
+	height: 47px;
+	flex-direction: column;
+	justify-content: center;
+	flex-shrink: 0;
+	color: #fff;
+	font-family: "Gilroy", sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	position: absolute;
+	bottom: 5rem;
+	left: 3rem;
+	padding: 10px;
 }
 
 /* For mobile devices */
 @media (max-width: 480px) {
-  .heroText {
-    font-size: 44px;
-    padding: 0rem 1rem;
-  }
+	.image1 {
+		height: 30vh;
+		width: auto;
+	}
+	.heroText {
+		font-size: 44px;
+		padding: 0rem 1rem;
+	}
 
-  .comprehensiveText {
-    font-size: 16px;
-    width: auto;
-    left: 1rem;
-  }
+	.comprehensiveText {
+		font-size: 16px;
+		width: auto;
+		left: 1rem;
+	}
 }
 
 /* For tablets */
 @media (min-width: 481px) and (max-width: 768px) {
-  .heroText {
-    font-size: 64px;
-    padding: 0rem 2rem;
-  }
+	.heroText {
+		font-size: 64px;
+		padding: 0rem 2rem;
+	}
 
-  .comprehensiveText {
-    font-size: 18px;
-    left: 2rem;
-  }
+	.comprehensiveText {
+		font-size: 18px;
+		left: 2rem;
+	}
 }
