@@ -1,81 +1,91 @@
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 18px;
-  background: #000211;
-  padding-top: 4rem;
-  position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 18px;
+	background: #000211;
+	padding-top: 4rem;
+	position: relative;
 }
 
 .cardContainer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 30px;
 }
 
 /* Assuming you already have styles for ElevateCard in another CSS file */
 .imageContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.elevate {
+	margin-top: 2vh;
+	width: 80vw;
+}
+
+.imageD {
+	margin: 0 10px;
+	width: 80vw;
+	height: auto;
 }
 
 .image {
-  margin: 0 10px;
-  width: 600px;
-  height: auto;
+	margin: 0 10px;
+	width: 600px;
+	height: auto;
 }
 
 .rightImage {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0; /* Position to the rightmost side */
-  width: 600px; /* Adjust this width based on how wide you want the right image to be */
-  height: 100%;
-  background-image: url("/src/assets/Vector21.png"); /* Replace with the path to your new image */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: transparent;
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0; /* Position to the rightmost side */
+	width: 600px; /* Adjust this width based on how wide you want the right image to be */
+	height: 100%;
+	background-image: url("/src/assets/Vector21.png"); /* Replace with the path to your new image */
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: transparent;
 }
-
 
 /* For tablets and medium-sized devices */
 @media (max-width: 1024px) {
-  .image {
-    width: 400px; /* Decrease width */
-  }
-  
-  .rightImage {
-    width: 400px; /* Adjust width for medium screens */
-  }
+	.image {
+		width: 400px; /* Decrease width */
+	}
+
+	.rightImage {
+		width: 400px; /* Adjust width for medium screens */
+	}
 }
 
 /* For mobile devices */
 @media (max-width: 768px) {
-  .imageContainer {
-    flex-direction: column; /* Stack the images vertically */
-  }
+	.imageContainer {
+		flex-direction: column; /* Stack the images vertically */
+	}
 
-  .image {
-    width: 300px; /* Further decrease width */
-    margin-bottom: 20px; /* Add some margin between stacked images */
-  }
+	.image {
+		width: 300px; /* Further decrease width */
+		margin-bottom: 20px; /* Add some margin between stacked images */
+	}
 
-  .rightImage {
-    display: none; /* Hide right image for better readability on small screens */
-  }
+	.rightImage {
+		display: none; /* Hide right image for better readability on small screens */
+	}
 
-  .cardContainer {
-    gap: 15px; /* Reduce gap between cards */
-  }
+	.cardContainer {
+		gap: 15px; /* Reduce gap between cards */
+	}
 }
 
 /* For very small mobile devices */
 @media (max-width: 480px) {
-  .image {
-    width: 250px; /* Further decrease width for very small screens */
-  }
+	.image {
+		width: 250px; /* Further decrease width for very small screens */
+	}
 }
