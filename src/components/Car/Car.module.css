@@ -1,23 +1,28 @@
 .carousel {
-	position: relative;
-	overflow: hidden;
-	width: 100%;
-	max-width: 800px; /* or whatever max-width you desire */
-	margin: 0 auto;
-	height: 400px; /* or adjust as needed */
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 800px; /* or whatever max-width you desire */
+  margin: 0 auto;
+  height: 450px;
+  display: flex; /* Added this */
+  align-items: center; /* Added this */
+  justify-content: center; /* Added this */
+  flex-direction: column;
 }
 
 .slide {
-	opacity: 0;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	transition: opacity 1s;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  /* transition: opacity 1s; */
 }
 
 .active {
-	opacity: 1;
+  opacity: 1;
 }
