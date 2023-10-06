@@ -2,7 +2,7 @@
   position: relative;
   overflow: hidden;
   width: 100%;
-  max-width: 800px; /* or whatever max-width you desire */
+  max-width: 800px; 
   margin: 0 auto;
   height: 450px;
   display: flex; /* Added this */

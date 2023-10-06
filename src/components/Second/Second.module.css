@@ -3,7 +3,6 @@
   background: black;
   font-family: "Gilroy", sans-serif;
   text-align: center; /* Since the content needs to be on the left side, we'll use text-align: left; */
-  padding-left: 50px; /* This padding is to ensure the content isn't too close to the edge. You can adjust it as needed. */
   height: 100%;
   position: relative;
   padding-top: 4rem;
@@ -59,10 +58,10 @@
   font-style: normal;
   font-weight: 400;
   line-height: 130%;
-  width: 496px;
+  width: 620px;
   z-index: 2;
   position: relative;
-  text-align:left;
+  text-align: left;
 }
 
 .secondContainer::after {
@@ -78,8 +77,6 @@
   background-color: transparent;
   z-index: 0;
 }
-
-
 
 /* For tablets and medium-sized devices */
 @media (max-width: 1024px) {
@@ -104,7 +101,8 @@
 @media (max-width: 768px) {
   .secondHeading {
     font-size: 32px;
-    padding: 1rem 2rem;
+    padding: 0rem 2rem 2rem;
+    margin-top: 1rem;
   }
 
   .secondContent {
@@ -116,6 +114,13 @@
   .secondContainer::before,
   .rightImage {
     display: none; /* Hide these images for smaller screens for better readability */
+  }
+  .secondContent {
+    margin: 2rem;
+    background: rgba(255, 255, 255, 0.1); /* semi-transparent white */
+    backdrop-filter: blur(10px); /* blurring the content behind the element */
+    border-radius: 10px; /* rounding corners for the "glass" feel */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* subtle shadow for depth */
   }
 }
 

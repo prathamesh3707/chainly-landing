@@ -7,10 +7,9 @@ const Second = () => {
       <Title
         titleName="About Chainly 🚀"
         style={{
-          position: "absolute",
-          top: "50%",
-          left: "50%",
-          transform: "translate(-50%, -50%)",
+          displa: "flex",
+          alignItems: "center",
+          justifyContent: "center",
         }}
       />
       <div className={styles.rightImage}></div>
