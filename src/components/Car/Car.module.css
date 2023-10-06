@@ -1,0 +1,23 @@
+.carousel {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	max-width: 800px; /* or whatever max-width you desire */
+	margin: 0 auto;
+	height: 400px; /* or adjust as needed */
+}
+
+.slide {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: opacity 1s;
+}
+
+.active {
+	opacity: 1;
+}

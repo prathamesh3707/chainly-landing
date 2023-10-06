@@ -10,6 +10,7 @@ import Contact from "./components/Contact";
 import Video from "./components/Video/Video";
 import Links from "./components/Links/Links";
 import Form from "./components/Form/Form";
+import Car from "./components/Car/Car";
 
 function App() {
 	return (
@@ -28,7 +29,8 @@ function App() {
 			<div id="services">
 				<Services />
 			</div>
-			<Elevate />
+			{/* <Elevate /> */}
+			<Car />
 			<div id="pricing">
 				<Test />
 			</div>
