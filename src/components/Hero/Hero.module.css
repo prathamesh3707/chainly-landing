@@ -116,8 +116,18 @@
 /* For mobile devices */
 @media (max-width: 480px) {
 	.image1 {
-		height: 30vh;
+		height: 40vh;
 		width: auto;
+	}
+	.image2 {
+		top: 20vh;
+		height: 40vh;
+		width: 100vw;
+	}
+	.image3 {
+		top: 20vh;
+		height: 50vh;
+		width: 100vw;
 	}
 	.heroText {
 		font-size: 44px;
