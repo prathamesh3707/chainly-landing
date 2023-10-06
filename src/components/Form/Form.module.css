@@ -1,24 +1,50 @@
-.form {
-	background: #000211;
+/* Global dark mode styling */
+body {
+    background: #000211;
+    color: #EFEFEF;
 }
 
+/* For the main form container */
+.bg-links {
+    background: #000211;
+}
+
+/* Heading styles */
 .heading {
-	color: white;
-	font-family: Gilroy;
-	font-size: 4vh;
-	margin: auto;
+    color: white;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 4vh;
+    margin: auto;
+    text-align: center;
 }
 
+/* Button styles */
 .submit {
-	color: white;
-	font-family: Gilroy;
-	font-size: 3vh;
-	margin: auto;
-	border: 2px solid blue;
-	padding: 1vw;
-	border-radius: 30%;
+    color: white;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 3vh;
+    margin: 20px auto 0;
+    display: block;
+    text-align: center;
+    border: 2px solid blue;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
 }
+
 .submit:hover {
-	background: #1972e2;
-	cursor: pointor;
+    background: #1972e2;
+    cursor: pointer; /* corrected from "pointor" to "pointer" */
+}
+
+
+input {
+    color: #364150 !important;
+    outline: none !important;
+    border: 1px solid transparent !important;
+    transition: border-color 0.3s !important; /* This adds a smooth transition */
+}
+
+input:focus {
+    border: 1px solid blue !important;
 }
