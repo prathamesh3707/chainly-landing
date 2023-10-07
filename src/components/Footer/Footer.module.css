@@ -51,10 +51,16 @@
 		margin-left: 0;
 		margin-bottom: 20px; /* Spacing between columns when they're stacked */
 		text-align: center; /* Center text in each column */
+		font-size: 3.5vw;
 	}
 
 	.chainlyContainer {
 		font-size: 8vw; /* Adjust font size for smaller screens */
 		margin-top: 20px; /* Spacing between footer columns and CHAINLY. STUDIO text */
+	}
+}
+@media (max-width: 550px) {
+	.footerColumn {
+		font-size: 5vw;
 	}
 }

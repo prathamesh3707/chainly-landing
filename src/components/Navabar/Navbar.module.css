@@ -1,94 +1,144 @@
 .navbar {
-  width: 560px;
-  height: 72px;
-  flex-shrink: 0;
-  border-radius: 65px;
-  background: rgba(21, 28, 47, 0.8);
-  backdrop-filter: blur(3px);
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  position: absolute;
-  bottom: 5rem;
-  left: 50%;
-  transform: translateX(-50%);
-  padding-top: 5px;
-  padding-left: 120px;
-  padding-right: 40px; /* Adding some padding to adjust for logo */
+	width: 560px;
+	height: 72px;
+	flex-shrink: 0;
+	border-radius: 65px;
+	background: rgba(21, 28, 47, 0.8);
+	backdrop-filter: blur(3px);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: absolute;
+	bottom: 5rem;
+	left: 50%;
+	transform: translateX(-50%);
+	padding-top: 5px;
+	padding-left: 120px;
+	padding-right: 40px;
 }
 
 .logo {
-  width: 114px;
-  height: 34px;
-  position: absolute;
-  left: 10px; /* Adjust this value based on your preference */
-  top: 50%;
-  transform: translateY(-50%);
+	width: 114px;
+	height: 34px;
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 .navbar a {
-  color: #fff;
-  text-align: center;
-  font-family: "Gilroy", sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px;
-  text-decoration: none;
-  transition: color 0.2s;
+	color: #fff;
+	text-align: center;
+	font-family: "Gilroy", sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px;
+	text-decoration: none;
+	transition: color 0.2s;
 }
 
 .navbar a:hover {
-  color: #01c2ff;
+	color: #01c2ff;
 }
 
 .navbar {
-  width: 560px;
-  height: 72px;
-  flex-shrink: 0;
-  border-radius: 65px;
-  background: rgba(21, 28, 47, 0.8);
-  backdrop-filter: blur(3px);
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  position: absolute;
-  bottom: 5rem;
-  left: 50%;
-  transform: translateX(-50%);
-  padding-top: 5px;
-  padding-left: 120px;
-  padding-right: 40px;
-  z-index: 3;
+	width: 560px;
+	height: 72px;
+	flex-shrink: 0;
+	border-radius: 65px;
+	background: rgba(21, 28, 47, 0.8);
+	backdrop-filter: blur(3px);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: absolute;
+	bottom: 5rem;
+	left: 50%;
+	transform: translateX(-50%);
+	padding-top: 5px;
+	padding-left: 120px;
+	padding-right: 40px;
+	z-index: 3;
 }
 
 .logo {
-  width: 114px;
-  height: 34px;
-  position: absolute;
-  left: 10px;
-  top: 50%;
-  transform: translateY(-50%);
+	width: 114px;
+	height: 34px;
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 .navbar a {
-  color: #fff;
-  text-align: center;
-  font-family: "Gilroy", sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px;
-  text-decoration: none;
-  transition: color 0.2s;
+	color: #fff;
+	text-align: center;
+	font-family: "Gilroy", sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px;
+	text-decoration: none;
+	transition: color 0.2s;
 }
 
 .navbar a:hover {
-  color: #01c2ff;
+	color: #01c2ff;
 }
 
 @media (max-width: 480px) {
-  .navbar {
-    display: none;
-  }
+	.navbar {
+		display: none;
+	}
+}
+@media (min-width: 480px) {
+	.dropdown_navbar {
+		display: none;
+	}
+}
+
+.dropdown_navbar {
+	position: absolute;
+	z-index: 1000;
+	display: inline-block;
+	bottom: 4vh;
+	right: 2vw;
+}
+
+button {
+	background-color: #01c2ff;
+	color: white;
+	padding: 10px 20px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	height: 8vh;
+	width: 8vh;
+	border-radius: 100%;
+}
+
+button:hover {
+	background-color: #2980b9;
+}
+
+.menu {
+	display: block;
+	position: absolute;
+	background-color: rgba(1, 194, 255, 0.8);
+	border-radius: 10%;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	bottom: 100%;
+	right: 0;
+}
+
+.menu a {
+	color: white;
+	padding: 10px 20px;
+	text-decoration: none;
+	display: block;
+	font-family: "Gilroy";
+	border-bottom: 1px solid black;
 }

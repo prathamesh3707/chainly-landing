@@ -1,127 +1,137 @@
 .secondContainer {
-  color: #fff;
-  background: #000211;
-  font-family: "Gilroy", sans-serif;
-  text-align: left;
-  padding-left: 50px;
-  height: auto; /* Changed from 100% to auto */
-  position: relative;
+	color: #fff;
+	background: #000211;
+	font-family: "Gilroy", sans-serif;
+	text-align: left;
+	padding-left: 50px;
+	height: auto; /* Changed from 100% to auto */
+	position: relative;
 }
 
 .secondContainer::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%; /* Changed from 700px to 100% */
-  height: 100%;
-  background-image: url("/src/assets/Vector 9.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: 0;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%; /* Changed from 700px to 100% */
+	height: 100%;
+	background-image: url("/src/assets/Vector 9.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: 0;
 }
 
 .rightImage {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%; /* Changed from 600px to 100% */
-  height: 100%;
-  background-image: url("/src/assets/Vector 10.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  z-index: 0;
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%; /* Changed from 600px to 100% */
+	height: 100%;
+	background-image: url("/src/assets/Vector 10.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	z-index: 0;
 }
 
 .secondHeading {
-  font-family: "Gilroy-Bold", sans-serif;
-  padding-left: 6rem;
-  padding-right: 6rem;
-  padding-bottom: 4rem;
-  padding-top: 3.5rem;
-  font-size: 54px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
-  text-transform: uppercase;
-  z-index: 2;
-  position: relative;
+	font-family: "Gilroy-Bold", sans-serif;
+	padding-left: 6rem;
+	padding-right: 6rem;
+	padding-bottom: 4rem;
+	padding-top: 3.5rem;
+	font-size: 54px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	text-transform: uppercase;
+	z-index: 2;
+	position: relative;
 }
 
 .secondContent {
-  font-feature-settings: "liga" off;
-  font-size: 20px;
-  padding: 3rem 6rem 6rem 6rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 130%;
-  width: 496px;
-  z-index: 2;
-  position: relative;
-  text-align: left;
+	font-feature-settings: "liga" off;
+	font-size: 20px;
+	padding: 3rem 6rem 6rem 6rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 130%;
+	width: 496px;
+	z-index: 2;
+	position: relative;
+	text-align: left;
 }
 
 .topRightImage {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0; /* Position to the top right corner */
-  width: 288.842px;
-  height: 288.842px;
-  mix-blend-mode: color-dodge;
-  flex-shrink: 0;
-  z-index: 0; /* To ensure it stays on top */
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0; /* Position to the top right corner */
+	width: 288.842px;
+	height: 288.842px;
+	mix-blend-mode: color-dodge;
+	flex-shrink: 0;
+	z-index: 0; /* To ensure it stays on top */
 }
 
 .cardList {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 20px; /* Set gap between each card, adjust as needed */
-  padding-top: 2rem; /* Set some padding at the top to separate it from the text above */
-  max-width: 1200px; /* Set a maximum width to ensure the layout looks good on larger screens */
-  margin: 0 auto; /* Center the card list horizontally */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 20px; /* Set gap between each card, adjust as needed */
+	padding-top: 2rem; /* Set some padding at the top to separate it from the text above */
+	max-width: 1200px; /* Set a maximum width to ensure the layout looks good on larger screens */
+	margin: 0 auto; /* Center the card list horizontally */
 }
 
 /* Media Query for Medium-sized devices like tablets */
 @media (min-width: 769px) and (max-width: 1024px) {
-  .secondHeading {
-    font-size: 42px; /* Slightly reduce font size */
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
+	.secondHeading {
+		font-size: 42px; /* Slightly reduce font size */
+		padding-left: 3rem;
+		padding-right: 3rem;
+	}
 
-  .secondContent {
-    font-size: 18px; /* Adjust font size */
-    padding: 2rem 3rem; /* Adjust padding */
-  }
+	.secondContent {
+		font-size: 18px; /* Adjust font size */
+		padding: 2rem 3rem; /* Adjust padding */
+	}
 
-  .cardList {
-    gap: 15px; /* Adjust gap between cards */
-  }
+	.cardList {
+		gap: 15px; /* Adjust gap between cards */
+	}
 }
 @media (max-width: 768px) {
-  .secondHeading {
-    font-size: 32px;
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
+	.secondHeading {
+		font-size: 32px;
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
 
-  .secondContainer::before,
-  .rightImage {
-    display: none; /* Hide both background images on mobile */
-  }
+	.secondContainer::before,
+	.rightImage {
+		display: none; /* Hide both background images on mobile */
+	}
 
-  .secondContent {
-    font-size: 16px;
-    padding: 2rem;
-    width: auto;
-  }
+	.secondContent {
+		font-size: 16px;
+		padding: 2rem;
+		width: auto;
+	}
 
-  .cardList {
-    padding-top: 1rem;
-    gap: 10px;
-  }
+	.cardList {
+		padding-top: 1rem;
+		gap: 10px;
+	}
+}
+@media (min-width: 626px) and (max-width: 769px) {
+	.cardList {
+		margin-left: -40px;
+	}
+}
+@media (min-width: 425px) and (max-width: 625px) {
+	.cardList {
+		margin-left: 10vw;
+	}
 }
