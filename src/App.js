@@ -11,37 +11,38 @@ import Video from "./components/Video/Video";
 import Links from "./components/Links/Links";
 import Form from "./components/Form/Form";
 import Car from "./components/Car/Car";
-
+import Navbar from "./components/Navabar";
 function App() {
 	return (
-		<div className="App">
-			<Hero />
-			<div id="about-us">
-				<Second />
-			</div>
-			<Marquee text="Chainly. studio" hollowText="Chainly. studio" />
-			<Marquee
-				text="Chainly. studio"
-				hollowText="Chainly. studio"
-				direction="reverse"
-				style={{ marginTop: "-2rem" }}
-			/>
-			<div id="services">
-				<Services />
-			</div>
-			{/* <Elevate /> */}
-			<Car />
-			<div id="pricing">
-				<Test />
-			</div>
-			<Video />
-			<Contact />
-			<Marquee text="Let's Talk" hollowText="Let's Talk" />
-			<Links />
-			<Form />
-			<Footer />
-		</div>
-	);
+    <div className="App">
+      <Hero />
+      <div id="about-us">
+        <Second />
+      </div>
+      <Marquee text="Chainly. studio" hollowText="Chainly. studio" />
+      <Marquee
+        text="Chainly. studio"
+        hollowText="Chainly. studio"
+        direction="reverse"
+        style={{ marginTop: "-2rem" }}
+      />
+      <div id="services">
+        <Services />
+      </div>
+      {/* <Elevate /> */}
+      <Car />
+      <div id="pricing">
+        <Test />
+      </div>
+      <Video />
+      <Contact />
+      <Marquee text="Let's Talk" hollowText="Let's Talk" />
+      <Links />
+      <Form />
+      <Footer />
+      <Navbar />
+    </div>
+  );
 }
 
 export default App;

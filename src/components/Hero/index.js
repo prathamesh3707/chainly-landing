@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./Hero.module.css";
-import Navbar from "../Navabar";
 import frame from "../../assets/Frame 1.png";
 import bg from "../../assets/BG.png";
 import dots from "../../assets/Dots.png";
@@ -13,7 +12,6 @@ const Hero = () => {
 			<div className={styles.heroText}>
 				MARKETING Services for Decentralized Journey
 			</div>
-			<Navbar />
 			<div className={styles.comprehensiveText}>
 				Comprehensive services <br /> for your Decentralised journey. 🚀
 			</div>
