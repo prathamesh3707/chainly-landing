@@ -1,0 +1,44 @@
+.marqueeContainer {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  background: #000211;
+  padding: 1.7rem;
+  width: 100%; 
+}
+
+.marqueeContent {
+  display: inline-block;
+  animation: marquee 1000s linear infinite; 
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%); 
+  }
+  100% {
+    transform: translateX(-200%); 
+  }
+}
+
+
+@keyframes marqueeReverse {
+  0% {
+    transform: translateX(-100%); 
+  }
+  100% {
+    transform: translateX(100%); 
+  }
+}
+
+
+.marqueeContentReverse {
+  display: inline-block;
+  animation: marqueeReverse 1000s linear infinite;
+}
+
+.logoImage {
+  display: inline-block;
+  margin: 0 1.5rem; 
+  vertical-align: middle; 
+}

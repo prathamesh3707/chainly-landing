@@ -2,7 +2,7 @@ import "./App.css";
 import Hero from "./components/Hero";
 import Test from "./components/Test";
 import Marquee from "./components/Marquee";
-// import Elevate from "./components/Elevate";
+import Elevate from "./components/Elevate";
 import Second from "./components/Second";
 import Services from "./components/Services";
 import Footer from "./components/Footer";
@@ -10,7 +10,8 @@ import Contact from "./components/Contact";
 import Video from "./components/Video/Video";
 import Links from "./components/Links/Links";
 import Form from "./components/Form/Form";
-import Car from "./components/Car/Car";
+// import Car from "./components/Car/Car";
+
 import Navbar from "./components/Navabar";
 function App() {
 	return (
@@ -29,8 +30,8 @@ function App() {
       <div id="services">
         <Services />
       </div>
-      {/* <Elevate /> */}
-      <Car />
+      <Elevate />
+      {/* <Car /> */}
       <div id="pricing">
         <Test />
       </div>
