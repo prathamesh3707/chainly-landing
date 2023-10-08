@@ -39,6 +39,7 @@
 	width: 100%; /* Take up the full width of the screen */
 	white-space: nowrap; /* Ensure the text doesn't wrap to the next line */
 	overflow: hidden; /* Hide overflow in case the text gets too large */
+	margin-bottom: 50px;
 }
 
 @media (max-width: 768px) {
