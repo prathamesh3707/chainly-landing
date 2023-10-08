@@ -190,3 +190,9 @@
 .image3 {
 	max-width: 100%; /* Ensuring the image doesn't overflow the container */
 }
+
+@media (min-width: 769px) and (max-width: 1295px) {
+	.comprehensiveText {
+		bottom: 0rem;
+	}
+}
