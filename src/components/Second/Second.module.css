@@ -1,138 +1,141 @@
 .secondContainer {
-  color: #fff;
-  background: black;
-  font-family: "Gilroy", sans-serif;
-  text-align: center; /* Since the content needs to be on the left side, we'll use text-align: left; */
-  height: 100%;
-  position: relative;
-  padding-top: 4rem;
+	color: #fff;
+	background: black;
+	font-family: "Gilroy", sans-serif;
+	text-align: center; /* Since the content needs to be on the left side, we'll use text-align: left; */
+	height: 100%;
+	position: relative;
+	padding-top: 4rem;
 }
 
 .secondContainer::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 700px;
-  height: 100%;
-  background-image: url("/src/assets/Vector 9.png"),
-    /* New image, will be on top */ url("/src/assets/Vector 11.png"); /* Existing image, will be below */
-  background-size: cover, cover;
-  background-repeat: no-repeat, no-repeat;
-  z-index: 0;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 700px;
+	height: 100%;
+	background-image: url("/src/assets/Vector 9.png"),
+		/* New image, will be on top */ url("/src/assets/Vector 11.png"); /* Existing image, will be below */
+	background-size: cover, cover;
+	background-repeat: no-repeat, no-repeat;
+	z-index: 0;
 }
 
 .rightImage {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0; /* Position to the rightmost side */
-  width: 600px; /* Adjust this width based on how wide you want the right image to be */
-  height: 100%;
-  background-image: url("/src/assets/Vector 10.png"); /* Replace with the path to your new image */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: transparent;
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0; /* Position to the rightmost side */
+	width: 600px; /* Adjust this width based on how wide you want the right image to be */
+	height: 100%;
+	background-image: url("/src/assets/Vector 10.png"); /* Replace with the path to your new image */
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: transparent;
 }
 
 .secondHeading {
-  font-family: "Gilroy-Bold", sans-serif;
-  padding-left: 6rem;
-  padding-right: 6rem;
-  padding-bottom: 4rem;
-  text-align: center;
-  padding-top: 3.5rem;
-  font-size: 54px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
-  text-transform: uppercase;
-  z-index: 2;
-  position: relative;
+	font-family: "Gilroy-Bold", sans-serif;
+	padding-left: 6rem;
+	padding-right: 6rem;
+	padding-bottom: 4rem;
+	text-align: center;
+	padding-top: 3.5rem;
+	font-size: 54px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	text-transform: uppercase;
+	z-index: 2;
+	position: relative;
 }
 
 .secondContent {
-  font-feature-settings: "liga" off;
-  font-size: 20px;
-  padding: 3rem 6rem 6rem 6rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 130%;
-  width: 620px;
-  z-index: 2;
-  position: relative;
-  text-align: left;
+	font-feature-settings: "liga" off;
+	font-size: 20px;
+	padding: 3rem 6rem 6rem 6rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 130%;
+	width: 620px;
+	z-index: 2;
+	position: relative;
+	text-align: left;
 }
 
 .secondContainer::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 500px;
-  height: 65%;
-  background-image: url("/src/assets/chainlyLogoSecond.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  z-index: 0;
+	content: "";
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 500px;
+	height: 65%;
+	background-image: url("/src/assets/chainlyLogoSecond.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	z-index: 0;
 }
 
 /* For tablets and medium-sized devices */
 @media (max-width: 1024px) {
-  .secondHeading {
-    font-size: 42px;
-    padding: 1rem 4rem;
-  }
+	.secondHeading {
+		font-size: 42px;
+		padding: 1rem 4rem;
+	}
 
-  .secondContent {
-    font-size: 18px;
-    padding: 2rem 4rem;
-    width: auto;
-  }
+	.secondContent {
+		font-size: 18px;
+		padding: 2rem 4rem;
+		width: auto;
+	}
 
-  .secondContainer::before,
-  .rightImage {
-    width: 50%;
-  }
+	.secondContainer::before,
+	.rightImage {
+		width: 50%;
+	}
 }
 
 /* For mobile devices */
 @media (max-width: 768px) {
-  .secondHeading {
-    font-size: 32px;
-    padding: 0rem 2rem 2rem;
-    margin-top: 1rem;
-  }
+	.secondHeading {
+		font-size: 32px;
+		padding: 0rem 2rem 2rem;
+		margin-top: 1rem;
+	}
 
-  .secondContent {
-    font-size: 16px;
-    padding: 1rem 2rem;
-    width: auto;
-  }
+	.secondContent {
+		font-size: 16px;
+		padding: 1rem 2rem;
+		width: auto;
+	}
 
-  .secondContainer::before,
-  .rightImage {
-    display: none; /* Hide these images for smaller screens for better readability */
-  }
-  .secondContent {
-    margin: 2rem;
-    background: rgba(255, 255, 255, 0.1); /* semi-transparent white */
-    backdrop-filter: blur(10px); /* blurring the content behind the element */
-    border-radius: 10px; /* rounding corners for the "glass" feel */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* subtle shadow for depth */
-  }
+	.secondContainer::before,
+	.rightImage {
+		display: none; /* Hide these images for smaller screens for better readability */
+	}
+	.secondContent {
+		margin: 2rem;
+		background: rgba(255, 255, 255, 0.1); /* semi-transparent white */
+		backdrop-filter: blur(10px); /* blurring the content behind the element */
+		border-radius: 10px; /* rounding corners for the "glass" feel */
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* subtle shadow for depth */
+	}
 }
 
 /* For very small mobile devices */
 @media (max-width: 480px) {
-  .secondHeading {
-    font-size: 24px;
-    padding: 0.5rem 1rem;
-  }
+	.secondHeading {
+		font-size: 24px;
+		padding: 0.5rem 1rem;
+	}
 
-  .secondContent {
-    font-size: 14px;
-    padding: 1rem;
-  }
+	.secondContent {
+		font-size: 14px;
+		padding: 1rem;
+	}
+	.secondContainer {
+		margin-top: -25vh;
+	}
 }

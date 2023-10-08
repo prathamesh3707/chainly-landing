@@ -151,6 +151,11 @@
 		bottom: 12rem;
 	}
 }
+@media (max-width: 480px) {
+	.comprehensiveText {
+		bottom: 11rem;
+	}
+}
 @media (min-width: 481px) and (max-width: 768px) {
 	.image1 {
 		height: 40vh;
