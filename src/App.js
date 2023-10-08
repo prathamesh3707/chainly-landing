@@ -11,10 +11,28 @@ import Video from "./components/Video/Video";
 import Links from "./components/Links/Links";
 import Form from "./components/Form/Form";
 // import Car from "./components/Car/Car";
-
+import { useState, useEffect } from "react";
 import Navbar from "./components/Navabar";
 function App() {
-	return (
+  const [showNavbar, setShowNavbar] = useState(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const contactPosition =
+        document.getElementById("contact-section").offsetTop;
+      if (window.scrollY >= contactPosition) {
+        setShowNavbar(false);
+      } else {
+        setShowNavbar(true);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+  return (
     <div className="App">
       <Hero />
       <div id="about-us">
@@ -36,12 +54,15 @@ function App() {
         <Test />
       </div>
       <Video />
-      <Contact />
+      <div id="contact-section">
+        {" "}
+        <Contact />
+      </div>
       <Marquee text="Let's Talk" hollowText="Let's Talk" />
       <Links />
       <Form />
       <Footer />
-      <Navbar />
+      {showNavbar && <Navbar />}{" "}
     </div>
   );
 }
