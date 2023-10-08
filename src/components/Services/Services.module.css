@@ -3,9 +3,11 @@
 	background: #000211;
 	font-family: "Gilroy", sans-serif;
 	text-align: left;
-	padding-left: 50px;
 	height: auto; /* Changed from 100% to auto */
 	position: relative;
+	/* display: flex;
+	justify-content: center;
+	flex-direction: column; */
 }
 
 .secondContainer::before {
@@ -79,7 +81,7 @@
 .cardList {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: center;
 	gap: 20px; /* Set gap between each card, adjust as needed */
 	padding-top: 2rem; /* Set some padding at the top to separate it from the text above */
 	max-width: 1200px; /* Set a maximum width to ensure the layout looks good on larger screens */
