@@ -32,6 +32,7 @@ function App() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
   return (
     <div className="App">
       <Hero />
@@ -53,14 +54,12 @@ function App() {
       <div id="pricing">
         <Test />
       </div>
-      <Video />
-      <div id="contact-section">
-        {" "}
-        <Contact />
-      </div>
+      <Video /> <Contact />
       <Marquee text="Let's Talk" hollowText="Let's Talk" />
       <Links />
-      <Form />
+      <div id="contact-section">
+        <Form />
+      </div>
       <Footer />
       {showNavbar && <Navbar />}{" "}
     </div>
