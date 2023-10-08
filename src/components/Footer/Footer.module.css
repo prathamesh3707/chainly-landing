@@ -41,6 +41,14 @@
 	overflow: hidden; /* Hide overflow in case the text gets too large */
 	margin-bottom: 50px;
 }
+.a {
+	margin-bottom: 0.5em;
+}
+.copyright {
+	font-family: "Gilroy";
+	text-align: center;
+	margin-bottom: 1vw;
+}
 
 @media (max-width: 768px) {
 	.footerContainer {
@@ -61,6 +69,9 @@
 	}
 }
 @media (max-width: 550px) {
+	.footerContainer {
+		margin-bottom: -50px;
+	}
 	.footerColumn {
 		font-size: 5vw;
 	}

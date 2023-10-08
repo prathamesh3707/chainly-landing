@@ -1,5 +1,6 @@
 import styles from "./Navbar.module.css";
 import logo from "../../assets/Chainly.png"; // Adjust the path based on your directory structure
+import nav from "../../assets/nav.png"; // Adjust the path based on your directory structure
 import React, { useState } from "react";
 function Navbar() {
 	const [isOpen, setIsOpen] = useState(false);
@@ -16,12 +17,12 @@ function Navbar() {
 			<div className={styles.dropdown_navbar}>
 				{!isOpen && (
 					<button className={styles.iconic} onClick={() => setIsOpen(!isOpen)}>
-						☰
+						<img src={nav} alt="hello" className={styles.image} />
 					</button>
 				)}
 				{isOpen && (
 					<button className={styles.iconic} onClick={() => setIsOpen(!isOpen)}>
-						✖
+						✘
 					</button>
 				)}
 

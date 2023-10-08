@@ -154,6 +154,9 @@
 @media (max-width: 480px) {
 	.comprehensiveText {
 		bottom: 11rem;
+		margin-left: 15vw;
+		padding: 0;
+		display: inline-block;
 	}
 }
 @media (min-width: 481px) and (max-width: 768px) {

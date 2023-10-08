@@ -1,189 +1,195 @@
 .navbar {
-  width: 560px;
-  height: 72px;
-  flex-shrink: 0;
-  border-radius: 65px;
-  background: rgba(21, 28, 47, 0.8);
-  backdrop-filter: blur(3px);
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  position: fixed;
-  bottom: 5rem;
-  left: 50%;
-  transform: translateX(-50%);
-  padding-top: 5px;
-  padding-left: 120px;
-  padding-right: 40px;
+	width: 560px;
+	height: 72px;
+	flex-shrink: 0;
+	border-radius: 65px;
+	background: rgba(21, 28, 47, 0.8);
+	backdrop-filter: blur(3px);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	bottom: 5rem;
+	left: 50%;
+	transform: translateX(-50%);
+	padding-top: 5px;
+	padding-left: 120px;
+	padding-right: 40px;
 }
 
 .logo {
-  width: 114px;
-  height: 34px;
-  position: absolute;
-  left: 10px;
-  top: 50%;
-  transform: translateY(-50%);
+	width: 114px;
+	height: 34px;
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 .navbar a {
-  color: #fff;
-  text-align: center;
-  font-family: "Gilroy", sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px;
-  text-decoration: none;
-  transition: color 0.2s;
+	color: #fff;
+	text-align: center;
+	font-family: "Gilroy", sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px;
+	text-decoration: none;
+	transition: color 0.2s;
 }
 
 .navbar a:hover {
-  color: #01c2ff;
+	color: #01c2ff;
 }
 
 .navbar {
-  width: 560px;
-  height: 72px;
-  flex-shrink: 0;
-  border-radius: 65px;
-  background: rgba(21, 28, 47, 0.8);
-  backdrop-filter: blur(3px);
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  position: fixed;
-  bottom: 5rem;
-  left: 50%;
-  transform: translateX(-50%);
-  padding-top: 5px;
-  padding-left: 120px;
-  padding-right: 40px;
-  z-index: 3;
+	width: 560px;
+	height: 72px;
+	flex-shrink: 0;
+	border-radius: 65px;
+	background: rgba(21, 28, 47, 0.8);
+	backdrop-filter: blur(3px);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	bottom: 5rem;
+	left: 50%;
+	transform: translateX(-50%);
+	padding-top: 5px;
+	padding-left: 120px;
+	padding-right: 40px;
+	z-index: 3;
 }
 
 .logo {
-  width: 114px;
-  height: 34px;
-  position: absolute;
-  left: 10px;
-  top: 50%;
-  transform: translateY(-50%);
+	width: 114px;
+	height: 34px;
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 .navbar a {
-  color: #fff;
-  text-align: center;
-  font-family: "Gilroy", sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px;
-  text-decoration: none;
-  transition: color 0.2s;
+	color: #fff;
+	text-align: center;
+	font-family: "Gilroy", sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px;
+	text-decoration: none;
+	transition: color 0.2s;
 }
 
 .navbar a:hover {
-  color: #01c2ff;
+	color: #01c2ff;
 }
 
 @media (max-width: 480px) {
-  .navbar {
-    display: none;
-  }
+	.navbar {
+		display: none;
+	}
 }
 @media (min-width: 480px) {
-  .dropdown_navbar {
-    display: none !important;
-  }
+	.dropdown_navbar {
+		display: none !important;
+	}
 }
 
 .dropdown_navbar {
-  position: fixed;
-  z-index: 1000;
-  display: inline-block;
-  bottom: 8vh;
-  right: 8vw;
+	position: fixed;
+	z-index: 1000;
+	display: inline-block;
+	bottom: 8vh;
+	right: 8vw;
 }
 
 button {
-  background-color: #01c2ff;
-  color: white;
-  padding: 10px 20px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-  height: 8vh;
-  width: 8vh;
-  border-radius: 100%;
+	background-color: #01c2ff;
+	color: white;
+	padding: 10px 20px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	height: 8vh;
+	width: 8vh;
+	border-radius: 100%;
 }
 
 button:hover {
-  background-color: #2980b9;
+	background-color: #2980b9;
 }
 
 .menu {
-  display: block;
-  position: absolute;
-  background-color: rgba(1, 194, 255, 0.8);
-  border-radius: 10%;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  bottom: 100%;
-  right: 0;
+	display: block;
+	position: absolute;
+	background-color: rgba(1, 194, 255, 0.8);
+	border-radius: 10%;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	bottom: 100%;
+	right: 0;
 }
 
 .menu a {
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  display: block;
-  font-family: "Gilroy";
-  border-bottom: 1px solid black;
+	color: white;
+	padding: 10px 20px;
+	text-decoration: none;
+	display: block;
+	font-family: "Gilroy";
+	border-bottom: 1px solid black;
 }
 .iconic {
-  background-color: rgba(255, 255, 255, 0.1); 
-  backdrop-filter: blur(15px); 
-  border: 1px solid rgba(255, 255, 255, 0.3); 
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-  color: white;
-  padding: 10px 20px;
-  font-size: 16px;
-  border-radius: 100%;
-  cursor: pointer;
-  height: 8vh;
-  width: 8vh;
-  transition: all 0.3s; 
+	/* background-color: rgba(255, 255, 255, 0.1); */
+	background: linear-gradient(to bottom, black, blue);
+	backdrop-filter: blur(15px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	color: white;
+	/* padding: 10px 20px; */
+	font-size: 25px;
+	border-radius: 100%;
+	cursor: pointer;
+	height: 8vh;
+	width: 8vh;
+	transition: all 0.3s;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
-
+.image {
+	width: 8vh !important;
+	height: auto !important;
+}
 .iconic:hover {
-  background-color: rgba(41, 128, 185, 0.2); 
+	background-color: rgba(41, 128, 185, 0.2);
 }
 
 .menu {
-  background-color: rgba(255, 255, 255, 0.1); 
-  backdrop-filter: blur(15px); 
-  border-radius: 10%;
-  border: 1px solid rgba(255, 255, 255, 0.3); 
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); 
-  min-width: 160px;
-  z-index: 1;
-  bottom: 110%;  /* adjusted for spacing */
-  right: 0;
-  position: absolute;
+	background-color: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(15px);
+	border-radius: 10%;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	min-width: 160px;
+	z-index: 1;
+	bottom: 110%; /* adjusted for spacing */
+	right: 0;
+	position: absolute;
 }
 
 .menu a {
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  display: block;
-  font-family: "Gilroy";
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3); 
+	color: white;
+	padding: 10px 20px;
+	text-decoration: none;
+	display: block;
+	font-family: "Gilroy";
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .menu a:last-child {
-  border-bottom: none; /* remove border from the last link */
+	border-bottom: none; /* remove border from the last link */
 }
-
