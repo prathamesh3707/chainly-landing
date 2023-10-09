@@ -112,4 +112,7 @@
 		font-size: 18px; /* Further decrease font size */
 		bottom: 6px; /* Adjust position */
 	}
+	.cardIcon {
+		width: 150px; /* Adjust icon size */
+	}
 }
