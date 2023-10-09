@@ -39,7 +39,7 @@
 /* For tablets */
 @media (max-width: 768px) {
 	.calendly_container {
-		bottom: 20%; /* Move it slightly upwards */
+		bottom: 8vh; /* Move it slightly upwards */
 		left: 90%; /* Centering */
 		transform: translateX(-50%); /* Centering */
 	}
@@ -51,7 +51,7 @@
 /* For mobile devices */
 @media (max-width: 480px) {
 	.calendly_container {
-		bottom: 20%; /* Move it even more upwards */
+		bottom: 7.6vh; /* Move it even more upwards */
 		left: 85%; /* Centering */
 		transform: translateX(-50%); /* Centering */
 	}

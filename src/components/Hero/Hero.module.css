@@ -195,6 +195,15 @@
 	.comprehensiveText {
 		bottom: 0rem;
 	}
+	.image1 {
+		height: 35vh;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 2189px) {
+	.heroText {
+		padding: 0rem 3rem;
+	}
 }
 
 @media (min-width: 1235px) and (max-width: 1245px) and (max-height: 480px) and (min-height: 470px) {

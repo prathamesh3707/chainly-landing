@@ -110,7 +110,7 @@
 	z-index: 1000;
 	display: inline-block;
 	bottom: 8vh;
-	right: 8vw;
+	left: 8vw;
 }
 
 button {
@@ -138,7 +138,7 @@ button:hover {
 	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 	z-index: 1;
 	bottom: 100%;
-	right: 0;
+	left: 0;
 }
 
 .menu a {

@@ -57,16 +57,16 @@ function Test() {
 							<div className="mx-auto"> Demo day</div>
 						</div>
 					</div>
-					<div className="w-3/5 mx-auto h-12 text-white mt-6 mb-3 py-3 rounded-2xl bg-gradient-to-r from-brand1 to-brand flex">
-						<div
-							className="mx-auto"
-							style={{ fontFamily: "Gilroy-Bold", color: "white" }}
-						>
-							<a href="https://docs.google.com/forms/d/e/1FAIpQLSdv2YddVhiMhM-bXwXjZ1F7_OLIHt9CeMDZEToID6fGj9ioKw/viewform?usp=sf_link">
+					<a href="https://docs.google.com/forms/d/e/1FAIpQLSdv2YddVhiMhM-bXwXjZ1F7_OLIHt9CeMDZEToID6fGj9ioKw/viewform?usp=sf_link">
+						<div className="w-3/5 mx-auto h-12 text-white mt-6 mb-3 py-3 rounded-2xl bg-gradient-to-r from-brand1 to-brand flex">
+							<div
+								className="mx-auto"
+								style={{ fontFamily: "Gilroy-Bold", color: "white" }}
+							>
 								GET IN TOUCH
-							</a>
+							</div>
 						</div>
-					</div>
+					</a>
 				</div>
 				<div className="mx-auto w-11/12 sm:w-5/6 md:w-1/3 lg:w-1/4 xl:w-96 border border-brand rounded-lg p-2 my-8 mx-2 md:mx-4 lg:mx-8 bg-gradient-to-b from-back to-black">
 					<div
@@ -99,16 +99,16 @@ function Test() {
 							<div className="mx-auto">Billboards</div>
 						</div>
 					</div>
-					<div className="w-3/5 mx-auto h-12 text-white mt-6 mb-3 py-3 rounded-2xl bg-gradient-to-r from-brand1 to-brand flex">
-						<div
-							className="mx-auto"
-							style={{ fontFamily: "Gilroy-Bold", color: "white" }}
-						>
-							<a href="https://docs.google.com/forms/d/e/1FAIpQLSdv2YddVhiMhM-bXwXjZ1F7_OLIHt9CeMDZEToID6fGj9ioKw/viewform?usp=sf_link">
+					<a href="https://docs.google.com/forms/d/e/1FAIpQLSdv2YddVhiMhM-bXwXjZ1F7_OLIHt9CeMDZEToID6fGj9ioKw/viewform?usp=sf_link">
+						<div className="w-3/5 mx-auto h-12 text-white mt-6 mb-3 py-3 rounded-2xl bg-gradient-to-r from-brand1 to-brand flex">
+							<div
+								className="mx-auto"
+								style={{ fontFamily: "Gilroy-Bold", color: "white" }}
+							>
 								GET IN TOUCH
-							</a>
+							</div>
 						</div>
-					</div>
+					</a>
 				</div>
 				<div className="mx-auto w-11/12 sm:w-5/6 md:w-1/3 lg:w-1/4 xl:w-96 border border-brand rounded-lg p-2 my-8 mx-2 md:mx-4 lg:mx-8 bg-gradient-to-b from-back to-black">
 					<div
@@ -141,16 +141,17 @@ function Test() {
 							<div className="mx-auto"> Demo day</div>
 						</div>
 					</div>
-					<div className="w-3/5 mx-auto h-12 text-white mt-6 mb-3 py-3 rounded-2xl bg-gradient-to-r from-brand1 to-brand flex">
-						<div
-							className="mx-auto"
-							style={{ fontFamily: "Gilroy-Bold", color: "white" }}
-						>
-							<a href="https://docs.google.com/forms/d/e/1FAIpQLSdv2YddVhiMhM-bXwXjZ1F7_OLIHt9CeMDZEToID6fGj9ioKw/viewform?usp=sf_link">
+
+					<a href="https://docs.google.com/forms/d/e/1FAIpQLSdv2YddVhiMhM-bXwXjZ1F7_OLIHt9CeMDZEToID6fGj9ioKw/viewform?usp=sf_link">
+						<div className="w-3/5 mx-auto h-12 text-white mt-6 mb-3 py-3 rounded-2xl bg-gradient-to-r from-brand1 to-brand flex">
+							<div
+								className="mx-auto"
+								style={{ fontFamily: "Gilroy-Bold", color: "white" }}
+							>
 								GET IN TOUCH
-							</a>
+							</div>
 						</div>
-					</div>
+					</a>
 				</div>
 			</div>
 		</div>
