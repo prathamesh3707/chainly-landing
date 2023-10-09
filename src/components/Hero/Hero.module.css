@@ -61,7 +61,7 @@
 	line-height: normal;
 	position: absolute;
 	bottom: 5rem;
-	left: 3rem;
+	left: 35vw;
 	padding: 10px; /* Optional: You can adjust this padding as per your requirements */
 }
 
@@ -149,6 +149,11 @@
 @media (max-width: 1370px) {
 	.comprehensiveText {
 		bottom: 12rem;
+	}
+}
+@media (min-width: 480px) and (max-width: 769px) {
+	.comprehensiveText {
+		left: 35vw !important;
 	}
 }
 @media (max-width: 480px) {
