@@ -1,0 +1,61 @@
+.calendly_container {
+	position: fixed;
+	bottom: 12%;
+	right: 10%;
+	z-index: 1000;
+	width: 80px;
+}
+
+.chain {
+	width: 80px;
+	height: auto;
+	cursor: pointer;
+}
+
+.calendly_button {
+	background-color: rgba(100, 150, 240, 0.1);
+	backdrop-filter: blur(5px);
+	border: 1px solid rgba(100, 150, 240, 0.3);
+	color: #fff;
+	padding: 12px 15px;
+	border-radius: 25px;
+	cursor: pointer;
+	transition: background-color 0.3s ease, transform 0.3s ease;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.calendly_button:hover {
+	background-color: rgba(
+		100,
+		150,
+		240,
+		0.2
+	); /* slightly more visible bluish color on hover */
+	transform: translateY(-3px); /* subtle lift on hover */
+}
+
+/* For tablets */
+@media (max-width: 768px) {
+	.calendly_container {
+		bottom: 20%; /* Move it slightly upwards */
+		left: 90%; /* Centering */
+		transform: translateX(-50%); /* Centering */
+	}
+}
+.but {
+	all: initial !important;
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+	.calendly_container {
+		bottom: 20%; /* Move it even more upwards */
+		left: 85%; /* Centering */
+		transform: translateX(-50%); /* Centering */
+	}
+	.chain {
+		width: 75px;
+	}
+}

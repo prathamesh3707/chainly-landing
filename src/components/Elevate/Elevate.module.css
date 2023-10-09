@@ -73,7 +73,7 @@
 }
 
 /* For mobile devices */
-@media (max-width: 768px) {
+@media (max-width: 480px) and (max-width: 768px) {
 	.imageContainer {
 		flex-direction: column; /* Stack the images vertically */
 	}
@@ -94,7 +94,7 @@
 
 /* For very small mobile devices */
 @media (max-width: 480px) {
-	.image {
-		width: 250px; /* Further decrease width for very small screens */
+	.cardIcon {
+		width: 100px;
 	}
 }
