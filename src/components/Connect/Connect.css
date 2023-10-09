@@ -52,8 +52,8 @@
   }
 
   .calendly-container {
-    bottom: 8%; /* Move it even more upwards */
-    left: 20%; /* Centering */
+    bottom: 20%; /* Move it even more upwards */
+    left: 79%; /* Centering */
     transform: translateX(-50%); /* Centering */
   }
 }
