@@ -62,7 +62,9 @@ function Test() {
 							className="mx-auto"
 							style={{ fontFamily: "Gilroy-Bold", color: "white" }}
 						>
-							GET IN TOUCH
+							<a href="https://docs.google.com/forms/d/e/1FAIpQLSdv2YddVhiMhM-bXwXjZ1F7_OLIHt9CeMDZEToID6fGj9ioKw/viewform?usp=sf_link">
+								GET IN TOUCH
+							</a>
 						</div>
 					</div>
 				</div>
@@ -102,7 +104,9 @@ function Test() {
 							className="mx-auto"
 							style={{ fontFamily: "Gilroy-Bold", color: "white" }}
 						>
-							GET IN TOUCH
+							<a href="https://docs.google.com/forms/d/e/1FAIpQLSdv2YddVhiMhM-bXwXjZ1F7_OLIHt9CeMDZEToID6fGj9ioKw/viewform?usp=sf_link">
+								GET IN TOUCH
+							</a>
 						</div>
 					</div>
 				</div>
@@ -142,7 +146,9 @@ function Test() {
 							className="mx-auto"
 							style={{ fontFamily: "Gilroy-Bold", color: "white" }}
 						>
-							GET IN TOUCH
+							<a href="https://docs.google.com/forms/d/e/1FAIpQLSdv2YddVhiMhM-bXwXjZ1F7_OLIHt9CeMDZEToID6fGj9ioKw/viewform?usp=sf_link">
+								GET IN TOUCH
+							</a>
 						</div>
 					</div>
 				</div>

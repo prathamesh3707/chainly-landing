@@ -1,5 +1,5 @@
 .navbar {
-	width: 560px;
+	width: 700px !important;
 	height: 72px;
 	flex-shrink: 0;
 	border-radius: 65px;
@@ -40,6 +40,13 @@
 
 .navbar a:hover {
 	color: #01c2ff;
+}
+
+@media (min-width: 1235px) and (max-width: 1245px) and (max-height: 480px) and (min-height: 470px) {
+	.navbar {
+		bottom: 0rem !important;
+		background: rgba(21, 28, 47, 0.95) !important;
+	}
 }
 
 .navbar {
@@ -109,13 +116,13 @@
 button {
 	background-color: #01c2ff;
 	color: white;
-	padding: 10px 20px;
-	font-size: 16px;
+	padding: 5px 5px;
+	font-size: 14px;
 	border: none;
 	cursor: pointer;
 	height: 8vh;
-	width: 8vh;
-	border-radius: 100%;
+	width: 15vh;
+	border-radius: 20%;
 }
 
 button:hover {

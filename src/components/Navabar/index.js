@@ -1,6 +1,7 @@
 import styles from "./Navbar.module.css";
 import logo from "../../assets/Chainly.png"; // Adjust the path based on your directory structure
 import nav from "../../assets/nav.png"; // Adjust the path based on your directory structure
+import CalendlyButton from "../Connect/Connect";
 import React, { useState } from "react";
 function Navbar() {
 	const [isOpen, setIsOpen] = useState(false);
@@ -12,6 +13,9 @@ function Navbar() {
 				<a href="#about-us">About Us</a>
 				<a href="#services">Services</a>
 				<a href="#pricing">Pricing</a>
+				<a href="https://calendly.com/chainlystudio/consult">
+					<CalendlyButton />{" "}
+				</a>
 			</div>
 
 			<div className={styles.dropdown_navbar}>

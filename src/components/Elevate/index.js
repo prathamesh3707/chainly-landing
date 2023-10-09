@@ -44,48 +44,53 @@ import e12 from "../../assets/exchanges/e12.svg";
 
 import LogoMarquee from "../LogoMarquee";
 function Elevate() {
-  const partners = [p1, p2, p3, p4, p5, p6, p7, p8, p9];
-  const launchpad = [l1, l2, l3, l4, l5, l6, l7];
-  const exchanges = [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11, e12];
-  return (
-    <div className={styles.container}>
-      <Title titleName="Chainly Ecosystem 🛸" />
-      <br />
-      <br />
-      {/* <div className={styles.imageContainer}>
+	const partners = [p1, p2, p3, p4, p5, p6, p7, p8, p9];
+	const launchpad = [l1, l2, l3, l4, l5, l6, l7];
+	const exchanges = [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11, e12];
+	return (
+		<div className={styles.container}>
+			<Title titleName="Chainly Ecosystem 🛸" />
+			<br />
+			<br />
+			{/* <div className={styles.imageContainer}>
 				<img src={partners} alt="hello" className={styles.image} />
 				<img src={launchpad} alt="hello" className={styles.image} />
 			</div> */}
-      {/* <div className={styles.elevate}>
+			{/* <div className={styles.elevate}>
 				<img src={exchanges} alt="hello" className={styles.imageD} />
 			</div> */}
-      <LogoMarquee images={partners} />
-      <br />
-      <LogoMarquee images={launchpad} direction="reverse" />
-      <br />
-      <LogoMarquee images={exchanges} />
+			<div className={styles.title}>partners</div>
+			<LogoMarquee images={partners} />
+			<br />
+			<div className={styles.title}>launchpad</div>
 
-      <div className={styles.rightImage}></div>
-      <br />
-      <br />
-      <br />
-      <Title titleName="Elevate with Chainly" />
-      <br />
-      <br />
+			<LogoMarquee images={launchpad} direction="reverse" />
+			<br />
+			<div className={styles.title}>exchanges</div>
 
-      <div className={styles.cardContainer}>
-        <ElevateCard
-          iconSrc={LightBulb}
-          cardText="Understanding clients vision"
-        />
-        <ElevateCard iconSrc={Hearth} cardText="Customised Action Plan" />
-        <ElevateCard iconSrc={Lightning} cardText="Deep Dive Analysis" />
-        <ElevateCard iconSrc={Mail} cardText="Live Communication" />
-        <ElevateCard iconSrc={User} cardText="Progress Check" />
-        <ElevateCard iconSrc={ThumbUp} cardText="Handover & Follow Up" />
-      </div>
-    </div>
-  );
+			<LogoMarquee images={exchanges} />
+
+			<div className={styles.rightImage}></div>
+			<br />
+			<br />
+			<br />
+			<Title titleName="Elevate with Chainly" />
+			<br />
+			<br />
+
+			<div className={styles.cardContainer}>
+				<ElevateCard
+					iconSrc={LightBulb}
+					cardText="Understanding clients vision"
+				/>
+				<ElevateCard iconSrc={Hearth} cardText="Customised Action Plan" />
+				<ElevateCard iconSrc={Lightning} cardText="Deep Dive Analysis" />
+				<ElevateCard iconSrc={Mail} cardText="Live Communication" />
+				<ElevateCard iconSrc={User} cardText="Progress Check" />
+				<ElevateCard iconSrc={ThumbUp} cardText="Handover & Follow Up" />
+			</div>
+		</div>
+	);
 }
 
 export default Elevate;

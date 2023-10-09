@@ -109,7 +109,7 @@
 	line-height: normal;
 	position: absolute;
 	bottom: 5rem;
-	left: 3rem;
+	/* left: 3rem; */
 	padding: 10px;
 }
 
@@ -194,5 +194,21 @@
 @media (min-width: 769px) and (max-width: 1295px) {
 	.comprehensiveText {
 		bottom: 0rem;
+	}
+}
+
+@media (min-width: 1235px) and (max-width: 1245px) and (max-height: 480px) and (min-height: 470px) {
+	.comprehensiveText {
+		bottom: -6rem;
+	}
+	.heroContainer {
+		height: 130vh;
+	}
+	.heroText {
+		font-size: 90px;
+		padding: 0rem 4rem;
+	}
+	.image1 {
+		height: 50vh !important;
 	}
 }
