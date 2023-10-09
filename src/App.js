@@ -15,15 +15,19 @@ import { useState, useEffect } from "react";
 import Navbar from "./components/Navabar";
 function App() {
   const [showNavbar, setShowNavbar] = useState(true);
-
   useEffect(() => {
     const handleScroll = () => {
+      const aboutUsPosition = document.getElementById("about-us").offsetTop;
       const contactPosition =
         document.getElementById("contact-section").offsetTop;
-      if (window.scrollY >= contactPosition) {
-        setShowNavbar(false);
-      } else {
+
+      if (
+        window.scrollY >= aboutUsPosition &&
+        window.scrollY < contactPosition
+      ) {
         setShowNavbar(true);
+      } else {
+        setShowNavbar(false);
       }
     };
 
