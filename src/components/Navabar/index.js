@@ -29,9 +29,7 @@ function Navbar() {
         <a href="#about-us">About Us</a>
         <a href="#services">Services</a>
         <a href="#pricing">Pricing</a>
-        {/* <a href="https://calendly.com/chainlystudio/consult">
-					<CalendlyButton />{" "}
-				</a> */}
+       
       </div>
 
       <div className={styles.dropdown_navbar}>
