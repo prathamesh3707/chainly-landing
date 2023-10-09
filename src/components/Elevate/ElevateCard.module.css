@@ -93,15 +93,23 @@
 	}
 
 	.cardIcon {
-		width: 30vw; /* Adjust icon size */
+		width: 40px; /* Adjust icon size */
 		height: auto;
-		top: 0px;
-		right: 15vw;
+		top: 8px;
+		right: 8px;
 	}
 
 	.cardText {
 		width: 150px; /* Adjust text width */
 		font-size: 20px; /* Further decrease font size */
 		bottom: 8px; /* Adjust position */
+	}
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+	.cardText {
+		width: 120px; /* Adjust text width */
+		font-size: 18px; /* Further decrease font size */
+		bottom: 6px; /* Adjust position */
 	}
 }
