@@ -193,7 +193,7 @@
 
 	.comprehensiveText {
 		font-size: 18px;
-		left: 2rem;
+		left: 18vw !important;
 	}
 }
 
@@ -206,6 +206,7 @@
 @media (min-width: 769px) and (max-width: 1295px) {
 	.comprehensiveText {
 		bottom: 0rem;
+		left: 30vw;
 	}
 	.image1 {
 		height: 35vh;
