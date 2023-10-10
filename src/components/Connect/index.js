@@ -17,7 +17,7 @@ function CalendlyButton() {
 	const openCalendly = () => {
 		if (window.Calendly) {
 			window.Calendly.initPopupWidget({
-				url: "https://calendly.com/chainlystudio/consult",
+				url: "https://calendly.com/chainly/consult",
 			});
 		}
 		return false;
