@@ -14,60 +14,62 @@ import Form from "./components/Form/Form";
 import { useState, useEffect } from "react";
 import Navbar from "./components/Navabar";
 function App() {
-  const [showNavbar, setShowNavbar] = useState(false);
-  useEffect(() => {
-    const handleScroll = () => {
-      const aboutUsPosition = document.getElementById("about-us").offsetTop;
-      const contactPosition =
-        document.getElementById("contact-section").offsetTop;
+	const [showNavbar, setShowNavbar] = useState(false);
+	useEffect(() => {
+		const handleScroll = () => {
+			const aboutUsPosition = document.getElementById("about-us").offsetTop;
+			const contactPosition =
+				document.getElementById("contact-section").offsetTop;
 
-      if (
-        window.scrollY >= aboutUsPosition &&
-        window.scrollY < contactPosition
-      ) {
-        setShowNavbar(true);
-      } else {
-        setShowNavbar(false);
-      }
-    };
+			if (
+				window.scrollY >= aboutUsPosition &&
+				window.scrollY < contactPosition
+			) {
+				setShowNavbar(true);
+			} else {
+				setShowNavbar(false);
+			}
+		};
 
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+		window.addEventListener("scroll", handleScroll);
+		return () => {
+			window.removeEventListener("scroll", handleScroll);
+		};
+	}, []);
 
-  return (
-    <div className="App">
-      <Hero />
-      <div id="about-us">
-        <Second />
-      </div>
-      <Marquee text="Chainly. studio" hollowText="Chainly. studio" />
-      <Marquee
-        text="Chainly. studio"
-        hollowText="Chainly. studio"
-        direction="reverse"
-        style={{ marginTop: "-2rem" }}
-      />
-      <div id="services">
-        <Services />
-      </div>
-      <Elevate />
-      {/* <Car /> */}
-      <div id="pricing">
-        <Test />
-      </div>
-      <Video /> <Contact />
-      <Marquee text="Let's Talk" hollowText="Let's Talk" />
-      <Links />
-      <div id="contact-section">
-        <Form />
-      </div>
-      <Footer />
-      {showNavbar && <Navbar />}{" "}
-    </div>
-  );
+	return (
+		<div className="App">
+			<Hero />
+			<div id="about-us">
+				<Second />
+			</div>
+			<Marquee text="Chainly. studio" hollowText="Chainly. studio" />
+			<Marquee
+				text="Chainly. studio"
+				hollowText="Chainly. studio"
+				direction="reverse"
+				style={{ marginTop: "-2rem" }}
+			/>
+			<div id="services">
+				<Services />
+			</div>
+			<div id="ecosystem">
+				<Elevate />
+			</div>
+			{/* <Car /> */}
+			<div id="pricing">
+				<Test />
+			</div>
+			<Video /> <Contact />
+			<Marquee text="Let's Talk" hollowText="Let's Talk" />
+			<Links />
+			<div id="contact-section">
+				<Form />
+			</div>
+			<Footer />
+			{showNavbar && <Navbar />}{" "}
+		</div>
+	);
 }
 
 export default App;

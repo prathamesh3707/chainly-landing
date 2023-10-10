@@ -6,10 +6,18 @@ function Footer() {
 		<div style={{ backgroundColor: "#000211" }}>
 			<div className={styles.footerContainer}>
 				<div className={styles.footerColumn}>
-					<div className={styles.a}>About Us</div>
-					<div className={styles.a}>Services</div>
-					<div className={styles.a}>Our partners</div>
-					<div className={styles.a}>Pricing plans</div>
+					<a href="#about-us">
+						<div className={styles.a}>About Us</div>
+					</a>
+					<a href="#services">
+						<div className={styles.a}>Services</div>
+					</a>
+					<a href="#ecosystem">
+						<div className={styles.a}>Our partners</div>
+					</a>
+					<a href="#pricing">
+						<div className={styles.a}>Pricing plans</div>
+					</a>
 				</div>
 				<div className={styles.footerColumn}>
 					<div className={styles.a}>Blogs</div>
