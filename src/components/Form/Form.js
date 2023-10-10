@@ -3,6 +3,22 @@ import React from "react";
 import styles from "./Form.module.css";
 
 function Form() {
+	const scriptURL =
+		"https://script.google.com/macros/s/AKfycbyrnhLSgCnEh1BiTaTq5mHC1NltsATpQAzvqwxlvdy9YHw5l1SGvtFWn4LDgBRPMLgy/exec";
+	const form = document.forms["product"];
+
+	form.addEventListener("submit", (e) => {
+		e.preventDefault();
+		fetch(scriptURL, { method: "POST", body: new FormData(form) })
+			.then((response) =>
+				alert("Thank you! your form is submitted successfully.")
+			)
+			.then(() => {
+				window.location.reload();
+			})
+			.catch((error) => console.error("Error!", error.message));
+	});
+
 	return (
 		<section class="bg-white dark:bg-gray-900">
 			<div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
@@ -13,7 +29,13 @@ function Form() {
 					Got a technical issue? Want to send feedback about a beta feature?
 					Need details about our Business plan? Let us know.
 				</p>
-				<form action="#" class="space-y-8">
+				<form
+					action="#"
+					class="space-y-8"
+					method="post"
+					name="product"
+					id="product"
+				>
 					<div style={{ backgroundColor: "black" }}>
 						<label
 							for="email"
