@@ -193,7 +193,7 @@
 
 	.comprehensiveText {
 		font-size: 18px;
-		left: 18vw !important;
+		left: 27vw !important;
 	}
 }
 
@@ -203,7 +203,7 @@
 	max-width: 100%; /* Ensuring the image doesn't overflow the container */
 }
 
-@media (min-width: 769px) and (max-width: 1295px) {
+@media (min-width: 769px) and (max-width: 1294px) {
 	.comprehensiveText {
 		bottom: 0rem;
 		left: 30vw;
@@ -219,9 +219,15 @@
 	}
 }
 
+@media (min-width: 1295px) and (max-width: 1370px) {
+	.comprehensiveText {
+		bottom: 0vh !important;
+	}
+}
+
 @media (min-width: 1235px) and (max-width: 1245px) and (max-height: 480px) and (min-height: 470px) {
 	.comprehensiveText {
-		bottom: -6rem;
+		bottom: -6rem !important;
 	}
 	.heroContainer {
 		height: 130vh;
