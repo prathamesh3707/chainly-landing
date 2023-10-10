@@ -59,10 +59,10 @@ function Elevate() {
 			{/* <div className={styles.elevate}>
 				<img src={exchanges} alt="hello" className={styles.imageD} />
 			</div> */}
-			<div className={styles.title}>partners</div>
+			<div className={styles.title}>partners / Platforms</div>
 			<LogoMarquee images={partners} />
 			<br />
-			<div className={styles.title}>launchpad</div>
+			<div className={styles.title}>launchpads</div>
 
 			<LogoMarquee images={launchpad} direction="reverse" />
 			<br />
