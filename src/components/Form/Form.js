@@ -3,21 +3,21 @@ import React from "react";
 import styles from "./Form.module.css";
 
 function Form() {
-	// const scriptURL =
-	// 	"https://script.google.com/macros/s/AKfycbyboldYESCsYOtolH9FoXd1RiKTEoAsTmHB1lR9sT6snTfLX7Mh5n-qhxRejN5GrUr4/exec";
-	// const form = document.forms["product"];
+	const scriptURL =
+		"https://script.google.com/macros/s/AKfycbyboldYESCsYOtolH9FoXd1RiKTEoAsTmHB1lR9sT6snTfLX7Mh5n-qhxRejN5GrUr4/exec";
+	const form = document.forms["product"];
 
-	// form.addEventListener("submit", (e) => {
-	// 	e.preventDefault();
-	// 	fetch(scriptURL, { method: "POST", body: new FormData(form) })
-	// 		.then((response) =>
-	// 			alert("Thank you! your form is submitted successfully.")
-	// 		)
-	// 		.then(() => {
-	// 			window.location.reload();
-	// 		})
-	// 		.catch((error) => console.error("Error!", error.message));
-	// });
+	form.addEventListener("submit", (e) => {
+		e.preventDefault();
+		fetch(scriptURL, { method: "POST", body: new FormData(form) })
+			.then((response) =>
+				alert("Thank you! your form is submitted successfully.")
+			)
+			.then(() => {
+				window.location.reload();
+			})
+			.catch((error) => console.error("Error!", error.message));
+	});
 
 	return (
 		<section class="bg-white dark:bg-gray-900">
