@@ -23,6 +23,7 @@ function Form() {
 						</label>
 						<input
 							type="email"
+							name="email"
 							id="email"
 							class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg  block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
 							placeholder="name@chainly.studio"
@@ -39,6 +40,7 @@ function Form() {
 						<input
 							type="text"
 							id="subject"
+							name="name"
 							class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white  dark:shadow-sm-light"
 							placeholder="Let us know how we can help you"
 							required
@@ -54,6 +56,7 @@ function Form() {
 						<textarea
 							id="message"
 							rows="6"
+							name="message"
 							class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
 							placeholder="Leave a comment..."
 							style={{ outline: "none", color: "black" }}
