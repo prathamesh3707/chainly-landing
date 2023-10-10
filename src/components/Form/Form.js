@@ -4,7 +4,7 @@ import styles from "./Form.module.css";
 
 function Form() {
 	const scriptURL =
-		"https://script.google.com/macros/s/AKfycbyrnhLSgCnEh1BiTaTq5mHC1NltsATpQAzvqwxlvdy9YHw5l1SGvtFWn4LDgBRPMLgy/exec";
+		"https://script.google.com/macros/s/AKfycbyboldYESCsYOtolH9FoXd1RiKTEoAsTmHB1lR9sT6snTfLX7Mh5n-qhxRejN5GrUr4/exec";
 	const form = document.forms["product"];
 
 	form.addEventListener("submit", (e) => {
